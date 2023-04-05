@@ -58,7 +58,7 @@ function Mobile() {
               <Link to="/" className="burger_menu2">Home</Link>
             <Link to="call" className="burger_menu2">Call For Exhibitors</Link>
             <Link to="reg" className="burger_menu2">Registration</Link>
-            <Link to="Visa" className="burger_menu2">Visa</Link>
+            <Link to="Visa" className="burger_menu2">Canada Visa</Link>
             <Link to="speakers" className="burger_menu2">Speakers</Link>
             <Link to="contact" className="burger_menu2">Contact us</Link>
             <Link to="travel" className="burger_menu2">Travel and Hotel</Link>

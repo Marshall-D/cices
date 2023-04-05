@@ -1,3 +1,6 @@
+import { Link, NavLink } from 'react-router-dom';
+
+
 function Navigation() {
     return (
       <div id="navigation_wrapper">
@@ -17,12 +20,8 @@ function Navigation() {
                     <span class="outer_menu_x">
                       <span class="menu_x1"></span>
                       <span class="menu_x2"></span>
-                      <a
-                        class="outer_title menu main_menu_selected"
-                        href="home.html"
-                      >
-                        <span class="menu_wrap">Home</span>
-                      </a>
+                      <Link to="/" className="burger_menu2">Home</Link>
+
                     </span>
                   </span>
                 </span>{" "}
@@ -33,12 +32,8 @@ function Navigation() {
                     <span class="outer_menu_x">
                       <span class="menu_x1"></span>
                       <span class="menu_x2"></span>
-                      <a
-                        class="outer_title menu main_menu"
-                        href="papersubmission.html"
-                      >
-                        <span class="menu_wrap">Call For Paper</span>
-                      </a>
+                      <Link to="call" className="burger_menu2">Call For Exhibitors</Link>
+
                     </span>
                   </span>
                 </span>{" "}
@@ -49,12 +44,8 @@ function Navigation() {
                     <span class="outer_menu_x">
                       <span class="menu_x1"></span>
                       <span class="menu_x2"></span>
-                      <a
-                        class="outer_title menu main_menu"
-                        href="registration.html"
-                      >
-                        <span class="menu_wrap">Registration</span>
-                      </a>
+                      <Link to="reg" className="burger_menu2">Registration</Link>
+
                     </span>
                   </span>
                 </span>{" "}
@@ -65,12 +56,8 @@ function Navigation() {
                     <span class="outer_menu_x">
                       <span class="menu_x1"></span>
                       <span class="menu_x2"></span>
-                      <a
-                        class="outer_title menu main_menu"
-                        href="travel-and-hotel.html"
-                      >
-                        <span class="menu_wrap">Travel and Hotel</span>
-                      </a>
+                      <Link to="travel" className="burger_menu2">Travel and Hotel</Link>
+
                     </span>
                   </span>
                 </span>{" "}
@@ -85,12 +72,8 @@ function Navigation() {
                     <span class="outer_menu_x">
                       <span class="menu_x1"></span>
                       <span class="menu_x2"></span>
-                      <a
-                        class="outer_title menu main_menu"
-                        href="speaker-and-committee.html"
-                      >
-                        <span class="menu_wrap">Speaker and Committee</span>
-                      </a>
+                      <Link to="speakers" className="burger_menu2">Speakers</Link>
+
                     </span>
                   </span>
                 </span>{" "}
@@ -105,12 +88,8 @@ function Navigation() {
                     <span class="outer_menu_x">
                       <span class="menu_x1"></span>
                       <span class="menu_x2"></span>
-                      <a
-                        class="outer_title menu main_menu"
-                        href="canada-visa.html"
-                      >
-                        <span class="menu_wrap">Canada Visa</span>
-                      </a>
+                      <Link to="Visa" className="burger_menu2">Canada Visa</Link>
+
                     </span>
                   </span>
                 </span>{" "}
@@ -121,9 +100,8 @@ function Navigation() {
                     <span class="outer_menu_x">
                       <span class="menu_x1"></span>
                       <span class="menu_x2"></span>
-                      <a class="outer_title menu main_menu" href="contact.html">
-                        <span class="menu_wrap">contact Us</span>
-                      </a>
+                      <Link to="contact" className="burger_menu2">Contact us</Link>
+
                     </span>
                   </span>
                 </span>{" "}
