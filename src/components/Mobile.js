@@ -1,13 +1,14 @@
 import { Link, NavLink } from 'react-router-dom';
+import "../Styles/Mobile.css";
 
 function Mobile() {
     return (
       <div>
-        <div id="mobile-overlay" />
-        <div id="mobile_top_bar">
-          <ul>
-            <li class="mobile_open_menu">
-              <div id="nav-icon3">
+        <div id="mobile_overlay" />
+        <div className="mobile_top_bar">
+          <ul className='mobile_top_bar_ul'>
+            <li className="mobile_open_menu">
+              <div className="nav_icon_3">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -15,7 +16,7 @@ function Mobile() {
               </div>
             </li>
 
-            <li class="mobile_search_box">
+            {/* <li class="mobile_search_box">
               <form
                 accept-charset="UTF-8"
                 action="search"
@@ -43,81 +44,46 @@ function Mobile() {
 
             <li class="mobile_social">
               <div></div>
-            </li>
+            </li> */}
           </ul>
         </div>
-        <div id="mobile_menus">
-          <div id="mobile_menus_inner">
-            <ul>
-              <li id="mobile_menus_title">
-                <div>
+        <div className="mobile_menu">
+          <div >
+            <ul className='mobile_menu_ul'>
+              <li className="mobile_menu_title">
+                <div style={{padding: "15px"}}>
                   Canada International Conference On Engineering and Sciences
-                  <span>CICES 2023 |May 21 -25, 2023 | Calgary, Canada</span>
+                  <span className='mobile_menu_title_span'>CICES 2023 |May 21 -25, 2023 | Calgary, Canada</span>
                 </div>
               </li>
-              <Link to="/" className="burger_menu2">Home</Link>
-            <Link to="call" className="burger_menu2">Call For Exhibitors</Link>
-            <Link to="reg" className="burger_menu2">Registration</Link>
-            <Link to="Visa" className="burger_menu2">Canada Visa</Link>
-            <Link to="speakers" className="burger_menu2">Speakers</Link>
-            <Link to="contact" className="burger_menu2">Contact us</Link>
-            <Link to="travel" className="burger_menu2">Travel and Hotel</Link>
-              {/* <li id="menu14686303" class="mobile_menu_selected">
-                <a class="outer_title" href="home.html">
-                  <span class="menu_wrap loadable">
-                    Home<div class="loader">Loading...</div>
-                    <div class="loader">Loading...</div>
-                  </span>
-                </a>
+              <li className='mobile_menu_li'>
+              <Link to="/" className="mobile_menu_a">Home</Link>
+              
               </li>
-              <li id="menu14686302" class="mobile_menu">
-                <a class="outer_title" href="papersubmission.html">
-                  <span class="menu_wrap loadable">
-                    Call For Paper<div class="loader">Loading...</div>
-                    <div class="loader">Loading...</div>
-                  </span>
-                </a>
+              <li className='mobile_menu_li'>
+            <Link to="call" className="mobile_menu_a">Call For Exhibitors</Link>
+            
               </li>
-              <li id="menu14686304" class="mobile_menu">
-                <a class="outer_title" href="registration.html">
-                  <span class="menu_wrap loadable">
-                    Registration<div class="loader">Loading...</div>
-                    <div class="loader">Loading...</div>
-                  </span>
-                </a>
+              <li className='mobile_menu_li'>
+            <Link to="reg" className="mobile_menu_a">Registration</Link>
+               
               </li>
-              <li id="menu14874771" class="mobile_menu">
-                <a class="outer_title" href="travel-and-hotel.html">
-                  <span class="menu_wrap loadable">
-                    Travel and Hotel<div class="loader">Loading...</div>
-                    <div class="loader">Loading...</div>
-                  </span>
-                </a>
+              <li className='mobile_menu_li'>
+            <Link to="travel" className="mobile_menu_a">Travel and Hotel</Link>
+                 
               </li>
-              <li id="menu14874784" class="mobile_menu">
-                <a class="outer_title" href="speaker-and-committee.html">
-                  <span class="menu_wrap loadable">
-                    Speaker and Committee<div class="loader">Loading...</div>
-                    <div class="loader">Loading...</div>
-                  </span>
-                </a>
+              <li className='mobile_menu_li'>
+            <Link to="speakers" className="mobile_menu_a">Speakers</Link>
+               
               </li>
-              <li id="menu14874799" class="mobile_menu">
-                <a class="outer_title" href="canada-visa.html">
-                  <span class="menu_wrap loadable">
-                    Canada Visa<div class="loader">Loading...</div>
-                    <div class="loader">Loading...</div>
-                  </span>
-                </a>
+              <li className='mobile_menu_li'>
+            <Link to="Visa" className="mobile_menu_a">Canada Visa</Link>
+             
               </li>
-              <li id="menu14686305" class="mobile_menu">
-                <a class="outer_title" href="contact.html">
-                  <span class="menu_wrap loadable">
-                    contact Us<div class="loader">Loading...</div>
-                    <div class="loader">Loading...</div>
-                  </span>
-                </a>
-              </li> */}
+              <li className='mobile_menu_li'>
+            <Link to="contact" className="mobile_menu_a">Contact us</Link>
+                  
+              </li>
 
               <li class="mobile_social_menu">
                 <div></div>
