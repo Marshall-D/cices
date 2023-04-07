@@ -2,18 +2,26 @@ import Footer from './Footer';
 import Header from './Header';
 import { Outlet } from 'react-router-dom'
 import '../App.css';
+import Navigation from './Navigation';
+import Mobile from './Mobile';
+import "../Styles/Mobile.css";
+
 
 
 
 function Formatter() {
   return (
-    <div className="formatter">
+    // <div className="formatter">
+    <div>
       <div className="main_wrapper_outer">
         <div className="main_wrapper">
-          <Header></Header>
-          <Outlet></Outlet>
+          {/* <Mobile></Mobile> */}
+          <div className="mobile_top_bar"/>
+          <Header/>
+          <Navigation />
+          <Outlet/>
         </div>
-        <Footer></Footer>
+        <Footer/>
       </div>
     </div>
   );

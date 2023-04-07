@@ -5,8 +5,8 @@ function Mobile() {
     return (
       <div>
         <div id="mobile_overlay" />
-        <div className="mobile_top_bar">
-          <ul className='mobile_top_bar_ul'>
+        <div style={{ position: "fixed" }} className="mobile_top_bar">
+          <ul className="mobile_top_bar_ul">
             <li className="mobile_open_menu">
               <div className="nav_icon_3">
                 <span></span>
@@ -48,49 +48,54 @@ function Mobile() {
           </ul>
         </div>
         <div className="mobile_menu">
-          <div >
-            <ul className='mobile_menu_ul'>
+          <div>
+            <ul className="mobile_menu_ul">
               <li className="mobile_menu_title">
-                <div style={{padding: "15px"}}>
+                <div style={{ padding: "15px" }}>
                   Canada International Conference On Engineering and Sciences
-                  <span className='mobile_menu_title_span'>CICES 2023 |May 21 -25, 2023 | Calgary, Canada</span>
+                  <span className="mobile_menu_title_span">
+                    CICES 2023 |May 21 -25, 2023 | Calgary, Canada
+                  </span>
                 </div>
               </li>
-              <li className='mobile_menu_li'>
-              <Link to="/" className="mobile_menu_a">Home</Link>
-              
+              <li className="mobile_menu_li">
+                <Link to="/" className="mobile_menu_a">
+                  Home
+                </Link>
               </li>
-              <li className='mobile_menu_li'>
-            <Link to="call" className="mobile_menu_a">Call For Exhibitors</Link>
-            
+              <li className="mobile_menu_li">
+                <Link to="call" className="mobile_menu_a">
+                  Call For Exhibitors
+                </Link>
               </li>
-              <li className='mobile_menu_li'>
-            <Link to="reg" className="mobile_menu_a">Registration</Link>
-               
+              <li className="mobile_menu_li">
+                <Link to="reg" className="mobile_menu_a">
+                  Registration
+                </Link>
               </li>
-              <li className='mobile_menu_li'>
-            <Link to="travel" className="mobile_menu_a">Travel and Hotel</Link>
-                 
+              <li className="mobile_menu_li">
+                <Link to="travel" className="mobile_menu_a">
+                  Travel and Hotel
+                </Link>
               </li>
-              <li className='mobile_menu_li'>
-            <Link to="speakers" className="mobile_menu_a">Speakers</Link>
-               
+              <li className="mobile_menu_li">
+                <Link to="speakers" className="mobile_menu_a">
+                  Speakers
+                </Link>
               </li>
-              <li className='mobile_menu_li'>
-            <Link to="Visa" className="mobile_menu_a">Canada Visa</Link>
-             
+              <li className="mobile_menu_li">
+                <Link to="Visa" className="mobile_menu_a">
+                  Canada Visa
+                </Link>
               </li>
-              <li className='mobile_menu_li'>
-            <Link to="contact" className="mobile_menu_a">Contact us</Link>
-                  
-              </li>
-
-              <li class="mobile_social_menu">
-                <div></div>
+              <li className="mobile_menu_li">
+                <Link to="contact" className="mobile_menu_a">
+                  Contact us
+                </Link>
               </li>
             </ul>
           </div>
-        </div>
+        </div> 
       </div>
     );
   }

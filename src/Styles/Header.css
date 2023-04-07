@@ -1,0 +1,176 @@
+.header_wrapper_2 {
+
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: repeat;
+    z-index: 6;
+    margin-top: -2px;
+    background-image: none;
+    background-color: #3e2687;
+}
+
+.header_wrapper_1 {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.header_img {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0;
+    width: 940px;
+    padding: 40px 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header_spacer {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    clear: both;
+}
+
+.hd_1 {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-weight: normal;
+    vertical-align: middle;
+    font-size: 3.6em;
+    display: inline-block;
+    font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
+    margin: 0;
+    line-height: normal;
+    color: #ffffff;
+    padding: 0 .1em;
+}
+
+.h2_outer {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #584f47;
+    cursor: pointer;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    z-index: 1;
+    line-height: normal;
+    position: relative;
+    display: inline-block;
+    padding: .3em .8em;
+    margin-top: 1em;
+}
+
+.h1_outer{
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #584f47;
+    cursor: pointer;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 110%;
+    z-index: 1;
+    line-height: normal;
+    position: relative;
+    display: inline-block;
+    padding: .3em .8em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.h2_bg{    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #584f47;
+    cursor: pointer;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #bdbd13;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    display: inline-block;
+    opacity: 0.7;
+    border: 0;
+}
+.h1_bg{    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #584f47;
+    cursor: pointer;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #3e2687;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    display: inline-block;
+    opacity: 0.7;
+    border: 0;}
