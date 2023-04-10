@@ -12,9 +12,7 @@ function Footer() {
                <footer role="contentinfo">
                   <div id="custom_footer"><p>Copyright © 2019-2023. All Rights Reserved.</p></div>
                   <div style={{clear:"both"}}></div>
-                  <div class="doodlekit">
                     
-                  </div>
                </footer>
                {/* <!-- END OF 'footer' --> */}
             </div>
