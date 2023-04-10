@@ -20,6 +20,8 @@
   margin: 10px;
   cursor: pointer;
   font-size: 100%;
+  color:wheat;
+  text-decoration: none ;
 }
 
 .span:hover {
