@@ -12,18 +12,18 @@ import "../Styles/Mobile.css";
 function Formatter() {
   return (
     // <div className="formatter">
-    <div>
-      <div className="main_wrapper_outer">
-        <div className="main_wrapper">
-          {/* <Mobile></Mobile> */}
-          <div className="mobile_top_bar"/>
-          <Header/>
-          <Navigation />
-          <Outlet/>
-        </div>
-        <Footer/>
-      </div>
-    </div>
+    <body style={{margin:"0"}}>
+      {/* <div className="main_wrapper_outer">
+        <div className="main_wrapper"> */}
+      {/* <Mobile></Mobile> */}
+      <div className="mobile_top_bar" />
+      <Header />
+      <Navigation />
+      <Outlet />
+      {/* </div> */}
+      <Footer />
+    </body>
+    // </div>
   );
 }
 

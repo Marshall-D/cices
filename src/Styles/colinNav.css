@@ -1,0 +1,27 @@
+.nav {
+  /* text-align: center; */
+  background-color: #261b19;
+  height: 120px;
+  /* margin: auto; */
+  /* padding: 100px; */
+  padding-top: 400px;
+  padding-left: 170px;
+
+
+
+}
+
+.span {
+  /* display: block; */
+  text-align: center;
+  padding: 10px;
+  background-color: #57422d;
+  font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+.span:hover {
+  color: white;
+}

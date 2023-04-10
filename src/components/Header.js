@@ -5,7 +5,8 @@ import "../Styles/Header.css";
 
 function Header()  {
     return (
-      <div>
+      // style={{marginBottom: "60px"}}
+      <div >
         <div className="header_wrapper_2">
           
         
