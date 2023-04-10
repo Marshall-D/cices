@@ -1,0 +1,53 @@
+.footer_wrapper_1 {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    float: left;
+    background-color: #3e2687;;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.content_info {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 30px 10px;
+    width: 940px;
+    text-align: center;
+}
+
+.custom_footer {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
