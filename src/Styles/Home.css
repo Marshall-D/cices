@@ -204,3 +204,48 @@ vertical-align: baseline;
 background: transparent;
 margin: 0 0 .85em 0;
 }
+.speaker{
+
+
+font: normal 16px/22px Verdana, Geneva, sans-serif;
+border: 0;
+outline: 0;
+background: transparent;
+line-height: 1.2;
+font-weight: normal;
+vertical-align: middle;
+font-size: 1.2em;
+font-family: Verdana, Geneva, sans-serif;
+color: #4c4640;
+text-align: left;
+margin: 0;
+padding: 0;}
+
+.speaker_text{font: normal 16px/22px Verdana, Geneva, sans-serif;
+color: #584f47;
+line-height: 1.2;
+font-weight: normal;
+font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;}
+.speaker_name{
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    color: #584f47;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    line-height: 1.2;
+    font-weight: normal;
+    margin-bottom: .5em;
+    vertical-align: middle;
+    font-size: 1.6em;
+    font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
+}
+
