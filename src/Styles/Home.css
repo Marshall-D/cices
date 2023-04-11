@@ -192,3 +192,15 @@
     background: #ffffff;
 }
 
+.inner_body_p{font: normal 16px/22px Verdana, Geneva, sans-serif;
+font-family: Verdana, Geneva, sans-serif;
+line-height: 1.5;
+color: #584f47;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+margin: 0 0 .85em 0;
+}
