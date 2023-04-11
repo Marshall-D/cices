@@ -21,17 +21,17 @@ function Home() {
               <Side></Side>
               {/* <!-- END OF 'sidebar1' --> */}
               <div className="content">
-                <div id="content_inner_1">
+                <div className="content_inner">
                   <div id="main_content">
-                    <div id="main_content_bg"></div>
+                    <div className="main_content_bg"></div>
                     <section id="quick_edit_container">
                       <div id="quick_content">
                         <div id="content_headers">
                           <div id="content_headers_inner_1">
-                            <div class="hgroup_outer">
-                              <hgroup id="page_titles">
-                                <div class="outer_title">
-                                  <h1>Join Us</h1>
+                            <div className="hgroup_outer">
+                              <hgroup id="hgroup_outer">
+                                <div className="outer_title">
+                                  <h1 className="btt" style={{fontSize:"2em"}}>Join Us</h1>
                                 </div>
                               </hgroup>
                             </div>
