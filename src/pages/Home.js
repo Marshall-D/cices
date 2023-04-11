@@ -1,24 +1,26 @@
+import "../Styles/Home.css";
+
 import Side from "../components/Side";
 
 function Home() {
     return (
-      <div id="container_wrapper_2">
-        <div class="">
+      <div className="container_wrapper_2">
+        {/* <div class="">
           <div id="page_shade_2">
             <div id="page_shade"></div>
           </div>
-        </div>
-        <div class="">
+        </div> */}
+        {/* <div class="">
           <div id="u_page_shade_2">
             <div id="u_page_shade"></div>
           </div>
-        </div>
-        <div id="container_wrapper_1">
-          <div id="container_wrapper">
-            <div id="container" class=" sidebar_box_header_fade_0">
+        </div> */}
+        <div className="container_wrapper_1">
+          <div className="container_wrapper">
+            <div className="sidebar" >
               <Side></Side>
               {/* <!-- END OF 'sidebar1' --> */}
-              <div id="content" class=" page_header_fade_0">
+              <div className="content">
                 <div id="content_inner_1">
                   <div id="main_content">
                     <div id="main_content_bg"></div>
@@ -112,13 +114,13 @@ function Home() {
                               <p>
                                 <br />
                               </p>
-                              <p>
+                              <p >
                                 <img
-                                  src="./index_files/a.jpg"
+                                  src="https://cices.icmbpsgroup.com/index_files/a.jpg"
                                   style={{ height: "auto", width: "258px" }}
                                 />
                                 <img
-                                  src="./index_files/b.jpg"
+                                  src="https://cices.icmbpsgroup.com/index_files/b.jpg"
                                   style={{
                                     fontSize: "12px",
                                     fontFamily: "Arial, Helvetica, sans-serif",
@@ -129,11 +131,11 @@ function Home() {
                               </p>
                               <p>
                                 <img
-                                  src="./index_files/c.jpg"
+                                  src="https://cices.icmbpsgroup.com/index_files/c.jpg"
                                   style={{ height: "auto", width: "327px" }}
                                 />
                                 <img
-                                  src="./index_files/d.jpg"
+                                  src="https://cices.icmbpsgroup.com/index_files/d.jpg"
                                   style={{
                                     fontSize: "12px",
                                     fontFamily: "Arial, Helvetica, sans-serif",
@@ -144,13 +146,13 @@ function Home() {
                               </p>
                               <p>
                                 <img
-                                  src="./index_files/e.jpg"
+                                  src="https://cices.icmbpsgroup.com/index_files/e.jpg"
                                   style={{ height: "auto", width: "301px" }}
                                 />
                               </p>
                               <p>
                                 <img
-                                  src="./index_files/f.jpg"
+                                  src="https://cices.icmbpsgroup.com/index_files/f.jpg"
                                   style={{ height: "auto", width: "384px" }}
                                 />
                               </p>

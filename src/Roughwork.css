@@ -1,21 +1,29 @@
-font: normal 16px/22px Verdana, Geneva, sans-serif;
-font-family: Verdana, Geneva, sans-serif;
-line-height: 1.5;
-color: #584f47;
-margin: 0;
-padding: 0;
-border: 0;
-outline: 0;
-font-size: 100%;
-vertical-align: baseline;
-background: transparent;
-float: left;
-width: 100%;
-position: relative;
-background-position: center center;
-background-repeat: repeat;
-z-index: 4;
-margin-top: -2px;
-background-image: none;
-background-color: #3e2687;
-display: none;
+.check {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0px;
+
+
+
+
+
+
+
+
+
+
+    
+}
