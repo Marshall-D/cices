@@ -1,5 +1,5 @@
 import Side from "../components/Side";
-import "../Styles/Home.css";
+// import "../Styles/Home.css";
 
 function Call() {
   return (

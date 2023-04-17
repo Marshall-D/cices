@@ -1,0 +1,22 @@
+.container_wrapper {
+
+    margin: 0 auto;
+    width: 960px;
+}
+
+.home{
+    display: flex;
+    justify-content: flex-end;
+    margin-block: 30px;
+}
+.Holder_home{
+    width: 60%;
+}
+
+
+@media screen and (width < 1024px) {
+    .Holder_home{
+        width: 100vw;
+        padding-inline: 5px;;
+    }
+}

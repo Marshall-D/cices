@@ -32,16 +32,16 @@
 
 
     padding: 0 10px;
-    width: 940px;
+    /* width: 940px; */
     margin-bottom: -30px;
 }
 
 .container_wrapper {
 
     margin: 0 auto;
-    width: 960px;
+    width: 60%;
 }
-
+/* 
 .sidebar_1 {
 
 
@@ -49,7 +49,7 @@
     display: inline-block;
     margin-right: 30px;
     width: 330px;
-}
+} */
 
 .content {
     float: right;

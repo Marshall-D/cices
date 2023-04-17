@@ -1,4 +1,4 @@
-import "../Styles/Home.css";
+// import "../Styles/Home.css";
 function Side() {
   return (
     <aside className="sidebar_1" role="complementary">

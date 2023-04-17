@@ -1,4 +1,4 @@
-import "../Styles/Home.css";
+// import "../Styles/Home.css";
 
 import Side from "../components/Side";
 

@@ -4,7 +4,7 @@ import "../Styles/Mobile.css";
 function Mobile() {
     return (
       <div>
-        <div id="mobile_overlay" />
+        {/* <div id="mobile_overlay" />
         <div style={{ position: "fixed" }} className="mobile_top_bar">
           <ul className="mobile_top_bar_ul">
             <li className="mobile_open_menu">
@@ -14,7 +14,7 @@ function Mobile() {
                 <span></span>
                 <span></span>
               </div>
-            </li>
+            </li> */}
 
             {/* <li class="mobile_search_box">
               <form
@@ -45,8 +45,8 @@ function Mobile() {
             <li class="mobile_social">
               <div></div>
             </li> */}
-          </ul>
-        </div>
+          {/* </ul>
+        </div> */}
         <div className="mobile_menu">
           <div>
             <ul className="mobile_menu_ul">

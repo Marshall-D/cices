@@ -69,7 +69,7 @@ body {
     left: 15px;
 }
 
-mobile_span {
+.mobile_span {
 
 
     text-align: left;
@@ -109,12 +109,30 @@ mobile_span {
     /* vertical-align: baseline; */
     background: transparent;
     top: 65px;
-    display: block;
+    display: flex;
     position: fixed;
     z-index: 9;
-    width: 100%;
-    height: 100%;
+    /* display: flex; */
+    flex-direction: column; 
+    width: 70%;
+        height: calc(100vh - 50px);
+    background-color: rgba(0,0,0, 0.4);
+    justify-content: space-around; 
+
+
+
 }
+
+/* .burger_menu1{
+    width: 70%;
+    height: 70px;
+    background-color: #1c1d1a;
+    color: white;
+    font-size: 21px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+} */
 
 .mobile_menu_ul {
 
