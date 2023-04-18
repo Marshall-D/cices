@@ -1,4 +1,6 @@
 // import "../Styles/Home.css";
+import "../Styles/ColinBody.css";
+
 function Side() {
   return (
     <aside className="sidebar_1" role="complementary">
@@ -36,7 +38,7 @@ function Side() {
             <div className="box_body-inner_2">
               <div className="box_content_body_inner_2">
                 <p >
-                  <img style={{ width: "304px", height: "auto" }} src="https://cices.icmbpsgroup.com/index_files/covid-19-update-news.jpg" />
+                  <img className="age" src="https://cices.icmbpsgroup.com/index_files/covid-19-update-news.jpg" />
                 </p>
                 <p>
                   May&nbsp;&nbsp;21-25, 2023 Conference Date

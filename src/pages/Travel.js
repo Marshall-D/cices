@@ -7,7 +7,6 @@ function Travel() {
         <div className="container_wrapper">
           <div className="sidebar">
             {" "}
-            <Side />
             <div className="content">
               <div className="content_inner">
                 <div id="main_content">
@@ -170,6 +169,8 @@ function Travel() {
                 </div>
               </div>
             </div>
+            <Side />
+
           </div>
         </div>
       </div>

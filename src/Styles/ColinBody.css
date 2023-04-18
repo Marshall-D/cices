@@ -1,8 +1,8 @@
-.container_wrapper {
+/* .container_wrapper {
 
     margin: 0 auto;
     width: 960px;
-}
+} */
 
 .home{
     display: flex;
@@ -20,3 +20,116 @@
         padding-inline: 5px;;
     }
 }
+.container_wrapper_2 {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    /* float: left; */
+    /* width: 100%; */
+    /* padding: 30px 0; */
+    /* position: relative; */
+    background-position: center center;
+    background-repeat: repeat;
+    z-index: 5;
+    /* margin-top: -2px; */
+    
+    background-image: url("https://dk-media.s3.amazonaws.com/media/1z3x0/template/attachments/36685473/bg70.png");
+    background-color: #f7f3e4;
+}
+@media screen and (width < 480px) {
+    .age{
+        height: auto;
+         width: 200px;
+         margin: 10px;
+         /* margin-bottom :20px; */
+        }
+    /* .some{
+        width: 300px;
+    }
+    .days{
+        width: 300px;
+    }
+    .see{
+        width: 300px;
+    } */
+}
+.btt {
+    line-height: 1.2;
+    font-weight: normal;
+    color: #E19622;
+    font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    overflow: hidden;
+}
+.box_note_icon {
+    color: #E19622;
+    background: transparent;
+    font-family: 'doodlepic';
+    font-weight: normal;
+    vertical-align: bottom;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    font-style: normal !important;
+    font-size: 120%;
+}
+
+.hgroup_outer {
+
+
+    margin: 20px;
+    padding: 20px;
+    /* margin-left: -0.7em;
+    padding-left: .7em;
+    margin-bottom: -0.7em;
+    padding-bottom: .7em; */
+}
+.outer_title {
+
+    display: block;
+    font-size: 110%;
+    border-bottom: 2px solid #F7F3E4;
+    padding-bottom: 1em;
+}
+.content_inner {
+
+    margin: 20px;
+    /* padding: 0; */
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    background: #ffffff;
+    /* align-items: center; */
+
+}
+
+
+.inner_box {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    margin: 20px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #ECE2CE;
+    /* align-items: center; */
+
+}
+

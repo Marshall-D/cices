@@ -1,4 +1,5 @@
 // import "../Styles/Home.css";
+import "../Styles/ColinBody.css";
 
 import Side from "../components/Side";
 
@@ -18,7 +19,6 @@ function Home() {
         <div className="container_wrapper_1">
           <div className="container_wrapper">
             <div className="sidebar" >
-              <Side></Side>
               {/* <!-- END OF 'sidebar1' --> */}
               <div className="content">
                 <div className="content_inner">
@@ -117,44 +117,36 @@ function Home() {
                               <p >
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/a.jpg"
-                                  style={{ height: "auto", width: "258px" }}
+                                 className="age"
                                 />
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/b.jpg"
-                                  style={{
-                                    fontSize: "12px",
-                                    fontFamily: "Arial, Helvetica, sans-serif",
-                                    width: "404px",
-                                    height: "auto",
-                                  }}
+                                  className="age"
+
                                 />
                               </p>
                               <p>
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/c.jpg"
-                                  style={{ height: "auto", width: "327px" }}
-                                />
+                                  className="age"
+                                  />
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/d.jpg"
-                                  style={{
-                                    fontSize: "12px",
-                                    fontFamily: "Arial, Helvetica, sans-serif",
-                                    width: "349px",
-                                    height: "auto",
-                                  }}
+                                  className="age"
+
                                 />
                               </p>
                               <p>
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/e.jpg"
-                                  style={{ height: "auto", width: "301px" }}
-                                />
+                                  className="age"
+                                  />
                               </p>
                               <p>
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/f.jpg"
-                                  style={{ height: "auto", width: "384px" }}
-                                />
+                                  className="age"
+                                  />
                               </p>
                             </div>
                           </div>
@@ -165,10 +157,13 @@ function Home() {
                   </div>
                 </div>
               </div>
+              <Side />
+
               {/* <!-- END OF 'content' --> */}
               <aside id="sidebar2" class="sidebar" role="complementary"></aside>
               {/* <!-- END OF 'sidebar2' --> */}
             </div>
+
             {/* <!-- END OF 'container' --> */}
           </div>
           {/* <!-- END OF 'container_wrapper' --> */}

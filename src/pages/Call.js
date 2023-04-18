@@ -7,7 +7,6 @@ function Call() {
       <div className="container_wrapper_1">
         <div className="container_wrapper">
           <div className="sidebar">
-            <Side />
             <div className="content">
               <div className="content_inner">
                 <div id="main_content">
@@ -176,6 +175,8 @@ return $('#main_content').load('/papersubmission.html');
                 </div>
               </div>
             </div>
+            <Side />
+
           </div>
         </div>
       </div>
