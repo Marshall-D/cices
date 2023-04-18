@@ -3,102 +3,53 @@
     margin: 0 auto;
     width: 960px;
 } */
-
-.home {
-    display: flex;
-    justify-content: flex-end;
-    margin-block: 30px;
-}
-
-.Holder_home {
-    width: 60%;
-}
-
-
-@media screen and (width < 1024px) {
-    .Holder_home {
-        width: 100vw;
-        padding-inline: 5px;
-        ;
-    }
-}
-
-.container_wrapper_2 {
-    font: normal 16px/22px Verdana, Geneva, sans-serif;
-    font-family: Verdana, Geneva, sans-serif;
-    line-height: 1.5;
-    color: #584f47;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    /* float: left; */
-    /* width: 100%; */
-    /* padding: 30px 0; */
-    /* position: relative; */
-    background-position: center center;
-    background-repeat: repeat;
-    z-index: 5;
-    /* margin-top: -2px; */
-
-    background-image: url("https://dk-media.s3.amazonaws.com/media/1z3x0/template/attachments/36685473/bg70.png");
-    background-color: #f7f3e4;
-}
-
-@media screen and (width < 480px) {
-    .age {
-        height: auto;
-        width: 200px;
-        margin: 5px;
-        /* margin-bottom :20px; */
-    }
-
-    .speaker_text {
-        font: normal 16px/22px Verdana, Geneva, sans-serif;
-        color: #584f47;
-        line-height: 1.2;
-        font-weight: normal;
-        font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;
-    }
-
-.speaker_name {
+.speaker_text {
     font: normal 16px/22px Verdana, Geneva, sans-serif;
     color: #584f47;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
     background: transparent;
-    line-height: 1.2;
-    font-weight: normal;
-    margin-bottom: .5em;
-    vertical-align: middle;
-    font-size: 1.2em;
-    font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
+}
+
+.speaker_name {
+font: normal 16px/22px Verdana, Geneva, sans-serif;
+color: #584f47;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+background: transparent;
+line-height: 1.2;
+font-weight: normal;
+margin-bottom: .5em;
+vertical-align: middle;
+font-size: 1.2em;
+font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
 }
 
 .speaker {
 
 
-    font: normal 16px/22px Verdana, Geneva, sans-serif;
-    border: 0;
-    outline: 0;
-    background: transparent;
-    line-height: 1.2;
-    font-weight: normal;
-    vertical-align: middle;
-    font-size: 0.9em;
-    font-family: Verdana, Geneva, sans-serif;
-    color: #4c4640;
-    text-align: left;
-    margin: 0;
-    padding: 0;
+font: normal 16px/22px Verdana, Geneva, sans-serif;
+border: 0;
+outline: 0;
+background: transparent;
+line-height: 1.2;
+font-weight: normal;
+vertical-align: middle;
+font-size: 0.9em;
+font-family: Verdana, Geneva, sans-serif;
+color: #4c4640;
+text-align: left;
+margin: 0;
+padding: 0;
 }
 .col_input {
     border-collapse: collapse;
@@ -206,6 +157,56 @@
     vertical-align: baseline;
     background: transparent;
 }
+
+.home {
+    display: flex;
+    justify-content: flex-end;
+    margin-block: 30px;
+}
+
+.Holder_home {
+    width: 60%;
+}
+
+
+@media screen and (width < 1024px) {
+    .Holder_home {
+        width: 100vw;
+        padding-inline: 5px;
+        ;
+    }
+}
+
+.container_wrapper_2 {
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    /* float: left; */
+    /* width: 100%; */
+    /* padding: 30px 0; */
+    /* position: relative; */
+    background-position: center center;
+    background-repeat: repeat;
+    z-index: 5;
+    /* margin-top: -2px; */
+
+    background-image: url("https://dk-media.s3.amazonaws.com/media/1z3x0/template/attachments/36685473/bg70.png");
+    background-color: #f7f3e4;
+}
+
+@media screen and (width < 480px) {
+    .age {
+        height: auto;
+        width: 200px;
+        margin: 5px;
+        /* margin-bottom :20px; */
+    }
+
+    
 /* .table{
     -webkit-text-size-adjust: none;
     font: normal 16px/22px Verdana, Geneva, sans-serif;
@@ -313,4 +314,13 @@
     background: #ECE2CE;
     /* align-items: center; */
 
+}
+
+@media screen and (width > 480px) { 
+    .age {
+     
+        height: auto;
+        width: 380px;
+        margin: 5px;
+    }
 }

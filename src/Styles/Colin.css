@@ -76,3 +76,11 @@
     /* padding-right: 40px; */
 }
 
+@media screen and (width > 480px) { 
+    .header_img {
+        height: 200px;
+        font-size: 1.0em;
+        width: 100%;
+
+    }
+}
