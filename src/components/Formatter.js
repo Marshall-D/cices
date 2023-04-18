@@ -13,6 +13,7 @@ function Formatter() {
   return (
     <div style={{width: "100%", display: "flex", flexDirection: "column"}}>
     <div style={{width: "100%"}}><Header/></div>
+    {/* <Navigation/> */}
     <div style={{display: "flex", width: "100%", flexWrap: "wrap", gap: "20px"}}>
         <Outlet/>
         {/* <div  style={{flex: "0.8"}}>
