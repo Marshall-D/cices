@@ -1,4 +1,5 @@
 import Side from "../components/Side";
+import "../Styles/ColinBody.css";
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
                         <div className="hgroup_outer">
                           <hgroup id="page_titles">
                             <div className="outer_title">
-                              <h1 className="btt" style={{ fontSize: "2em" }}>
+                              <h1 className="btt" style={{ fontSize: "1.6em" }}>
                                 Contact Us{" "}
                               </h1>{" "}
                             </div>
@@ -35,7 +36,7 @@ function Contact() {
 
                     <div className="content_body">
                       <div className="content_body_inner">
-                        <div className="content_body_inner_2">
+                        <div className="">
                           <div id="content_message">
                             <div class="content_message">
                               <p>
@@ -72,7 +73,7 @@ function Contact() {
                               />
                             </div>
 
-                            <table >
+                            <table className="table">
                               <tbody>
                                 <tr className="table_tr">
                                   <td className="col_1">

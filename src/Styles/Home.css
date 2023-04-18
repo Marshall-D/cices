@@ -408,3 +408,36 @@
     color: #584F47;
     border: 0;
 }
+/* .table_tr{
+    -webkit-text-size-adjust: none;
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+} */
+.table{
+    -webkit-text-size-adjust: none;
+    font: normal 16px/22px Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    color: #584f47;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 0 .85em 0;
+    float: left;
+    margin-left: -0.5em;
+    width: 100%;
+}
