@@ -1,4 +1,5 @@
 import Side from "../components/Side";
+import "../Styles/ColinBody.css";
 
 function Speaker() {
   return (
@@ -18,7 +19,7 @@ function Speaker() {
                           <div className="hgroup_outer">
                             <hgroup id="page_titles">
                               <div className="outer_title">
-                                <h1 className="btt" style={{ fontSize: "2em" }}>
+                                <h1 className="btt" style={{ fontSize: "1.6em" }}>
                                   Speaker and Committee{" "}
                                 </h1>{" "}
                               </div>
@@ -42,17 +43,19 @@ function Speaker() {
                             <h2>
                               <img
                                 src="https://cices.icmbpsgroup.com/speaker-and-committee_files/041d18b.jpg"
-                                style={{
-                                  marginBottom: "0px",
-                                  borderColor: "rgb(236, 226, 206)",
-                                  fontSize: "14px",
-                                  backgroundPosition: "0px 0px",
-                                  color: "rgb(69, 49, 34)",
-                                  boxSizing: "border-box",
-                                  textSizeAdjust: "100%",
-                                  position: "relative",
-                                  width: "176px",
-                                }}
+                                // style={{
+                                //   marginBottom: "0px",
+                                //   borderColor: "rgb(236, 226, 206)",
+                                //   fontSize: "14px",
+                                //   backgroundPosition: "0px 0px",
+                                //   color: "rgb(69, 49, 34)",
+                                //   boxSizing: "border-box",
+                                //   textSizeAdjust: "100%",
+                                //   position: "relative",
+                                //   width: "176px",
+                                // }}
+                                className="age"
+
                               />{" "}
                               {/* <img
                                 src="https://cices.icmbpsgroup.com/speaker-and-committee_files/ac.jpg"
@@ -96,7 +99,9 @@ function Speaker() {
                                 University Of Calgary
                               </p>
                               <p>
-                                <img src="https://cices.icmbpsgroup.com/speaker-and-committee_files/add.jpg" />
+                                <img src="https://cices.icmbpsgroup.com/speaker-and-committee_files/add.jpg" 
+                                                                className="age"
+                                                                />
                               </p>
                             </h2>
                             <h3 className="speaker_name">Hamilton Lohan</h3>
@@ -110,7 +115,9 @@ function Speaker() {
                                 <p>
                                   <img
                                     src="https://cices.icmbpsgroup.com/speaker-and-committee_files/ty.jpg"
-                                    style={{ height: "auto", width: "273px" }}
+                                    // style={{ height: "auto", width: "273px" }}
+                                    className="age"
+
                                   />
                                 </p>
                                 <p></p>

@@ -1,5 +1,11 @@
+
+import "../Styles/ColinBody.css";
+
 import Side from "../components/Side";
 // import "../Styles/Home.css";
+
+
+
 
 function Call() {
   return (
@@ -17,8 +23,8 @@ function Call() {
                         <div className="hgroup_outer">
                           <hgroup id="page_titles">
                             <div className="outer_title">
-                              <h1 className="btt" style={{ fontSize: "2em" }}>
-                                Paper Submission{" "}
+                              <h1 className="btt" style={{ fontSize: "1.5em" }}>
+                                Paper Submission
                               </h1>
                             </div>
                           </hgroup>
@@ -144,14 +150,14 @@ function Call() {
                           <p >
                             <img
                               src="https://cices.icmbpsgroup.com/papersubmission_files/g.jpg"
-                              style={{ height: "auto", width: "557px" }}
-                            />
+                              className="age"
+                              />
                           </p>
                           <p>
                             <img
                               src="https://cices.icmbpsgroup.com/papersubmission_files/s.jpeg"
-                              style={{ height: "auto", width: "536px" }}
-                            />
+                              className="age"
+                              />
                           </p>
                         </div>
                       </div>

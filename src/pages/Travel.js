@@ -1,4 +1,5 @@
 import Side from "../components/Side";
+import "../Styles/ColinBody.css";
 
 function Travel() {
   return (
@@ -56,10 +57,12 @@ function Travel() {
                             <p>
                               <img
                                 src="https://cices.icmbpsgroup.com/travel-and-hotel_files/images.jpg"
-                                style={{
-                                  borderColor: "rgb(236, 226, 206)",
-                                  fontSize: "15px",
-                                }}
+                                // style={{
+                                //   borderColor: "rgb(236, 226, 206)",
+                                //   fontSize: "15px",
+                                // }}
+                                className="age"
+
                               />
                             </p>
                             <p>
@@ -87,10 +90,11 @@ function Travel() {
                             <p>
                               <img
                                 src="https://cices.icmbpsgroup.com/travel-and-hotel_files/Transit_1.png"
-                                style={{
-                                  borderColor: "rgb(236, 226, 206)",
-                                  fontSize: "15px",
-                                }}
+                                // style={{
+                                //   borderColor: "rgb(236, 226, 206)",
+                                //   fontSize: "15px",
+                                // }}
+                                className="age"
                               />
                             </p>
                             <p>

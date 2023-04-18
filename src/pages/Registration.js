@@ -1,5 +1,7 @@
 import Side from "../components/Side";
 // import "../Styles/Home.css";
+import "../Styles/ColinBody.css";
+
 
 function Registration() {
   return (
@@ -19,8 +21,8 @@ function Registration() {
                           <div className="hgroup_outer">
                             <hgroup id="page_titles">
                               <div className="outer_title">
-                                <h1 className="btt" style={{ fontSize: "2em" }}>
-                                  Registration{" "}
+                                <h1 className="btt" style={{ fontSize: "1.5em" }}>
+                                  Registration
                                 </h1>{" "}
                               </div>
                             </hgroup>
@@ -208,7 +210,7 @@ function Registration() {
                                       style={{
                                         borderColor: "rgb(236, 226, 206)",
                                         fontSize: "15px",
-                                        width: "290px",
+                                        width: "200px",
                                       }}
                                     />
                                   </a>

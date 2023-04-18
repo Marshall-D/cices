@@ -6,16 +6,6 @@ import Side from "../components/Side";
 function Home() {
     return (
       <div className="container_wrapper_2">
-        {/* <div class="">
-          <div id="page_shade_2">
-            <div id="page_shade"></div>
-          </div>
-        </div> */}
-        {/* <div class="">
-          <div id="u_page_shade_2">
-            <div id="u_page_shade"></div>
-          </div>
-        </div> */}
         <div className="container_wrapper_1">
           <div className="container_wrapper">
             <div className="sidebar" >
