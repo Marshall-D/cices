@@ -1,7 +1,23 @@
 import Side from "../components/Side";
 import "../Styles/ColinBody.css";
+import emailjs from '@emailjs/browser';
+import React, { useRef, useState } from 'react'
+
+
 
 function Contact() {
+  const formRef = useRef();
+  const [done, setDone] = useState(false)
+  const handleSubmit = (e) =>{
+    e.preventDefault()
+    emailjs.sendForm('service_e7mui7z', 'template_ljdmy1f', formRef.current, 'gcGFmh4AboaUrPVSa')
+  .then((result) => {
+      console.log(result.text);
+      setDone(true)
+  }, (error) => {
+      console.log(error.text);
+  });
+}
   return (
     <div className="container_wrapper_2">
       <div className="container_wrapper_1">
@@ -54,9 +70,11 @@ function Contact() {
                           </div>
 
                           <form
+                           ref={formRef} onSubmit={handleSubmit}
                             accept-charset="UTF-8"
                             action="contact/send_message"
                             method="post"
+
                           >
                             <div
                               style={{
@@ -83,8 +101,7 @@ function Contact() {
                                     <span class="textbox" id="contact_email">
                                       <input className="email_input"
                                         id="submission_from"
-                                        name="submission[from]"
-                                        size="30"
+                                        name="user_name"                                        size="30"
                                         type="text"
                                       />
                                     </span>
@@ -99,8 +116,7 @@ function Contact() {
                                     <input className="email_input"
                                       
                                         id="submission_subject"
-                                        name="submission[subject]"
-                                        size="30"
+                                        name="user_subject"                                         size="30"
                                         type="text"
                                       />
                                     </span>
@@ -120,8 +136,7 @@ function Contact() {
                                       
                                         cols="40"
                                         id="submission_message"
-                                        name="submission[message]"
-                                        rows="20"
+                                        name="message"                                        rows="20"
                                       ></textarea>
                                     </span>
                                   </td>
@@ -141,6 +156,8 @@ function Contact() {
                                 </tr>
                               </tbody>
                             </table>
+                            { done && "Thanks for reaching out ..."}
+
                           </form>
                         </div>
                       </div>

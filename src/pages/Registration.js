@@ -200,7 +200,7 @@ function Registration() {
                                 </table>
                                 <p>
                                   <a
-                                    href="https://form.jotform.com/222753850645460"
+                                    href="https://form.jotform.com/231082185482253"
                                     target="_blank"
                                   >
                                     <br />
