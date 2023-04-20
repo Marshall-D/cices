@@ -401,7 +401,7 @@
 
 }
 
-@media screen and (width > 480px) {
+@media screen and (width >= 480px) {
     .age {
 
         height: auto;

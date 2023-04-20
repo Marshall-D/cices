@@ -59,7 +59,7 @@ function Header()  {
                     <div className="header_spacer"></div>
                     <div className="h2_outer">
                       <div className="h2_bg"></div>
-                      <h2 style={{fontSize: "1em", color:"ffffff9c"}} className="hd_1">
+                      <h2 style={{fontSize: "1em", color:"ffffff9c",backgroundColor: "#bdbd13"}} className="hd_1">
                         CICES 2023 |May 21 -25, 2023 | Calgary, Canada
                       </h2>
                     </div>
