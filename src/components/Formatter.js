@@ -15,7 +15,9 @@ function Formatter() {
     <div style={{width: "100%"}}><Header/></div>
     <Navigation/>
     <div style={{display: "flex", width: "100%", flexWrap: "wrap", gap: "20px"}}>
-        <Outlet/>
+                {/* <div  style={{flex: "1.2"}}> */}
+ <Outlet/>
+ {/* </div> */}
         {/* <div  style={{flex: "0.8"}}>
         <Side/>
         </div> */}

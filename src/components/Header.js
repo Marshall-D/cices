@@ -26,10 +26,10 @@ function Header()  {
         <div className="header_extra_1"></div>
         <div className="header_extra_2">
           {
-            !showSide? <div style={{display: "flex", alignItems: "center", height: "100%"}} onClick={toggleSide}>
+            !showSide? <div style={{paddingLeft: "20px",display: "flex", alignItems: "center", height: "100%"}} onClick={toggleSide}>
           <ImMenu color="color: #a49588" fontSize="2em"/>
           </div>:
-          <div style={{display: "flex", alignItems: "center", height: "100%"}} onClick={toggleSide}>
+          <div style={{paddingLeft: "20px",display: "flex", alignItems: "center", height: "100%"}} onClick={toggleSide}>
           <MdClose color="color: #a49588" fontSize="2em"/>
           </div>
           }
@@ -38,16 +38,7 @@ function Header()  {
         {
           showSide && <div className='burger' onClick={toggleSide}>
             <Mobile/>
-            {/* <div className="burger_menu1">19th International Trade Fair, Business and Investors Summit
-              <span>ITFBIS 2023 | 21-25 July 2023  l  Calgary, Canada</span>
-            </div>
-            <Link to="/" className="burger_menu2">Home</Link>
-            <Link to="call" className="burger_menu2">Call For Exhibitors</Link>
-            <Link to="reg" className="burger_menu2">Registration</Link>
-            <Link to="agenda" className="burger_menu2">Agenda</Link>
-            <Link to="speakers" className="burger_menu2">Speakers</Link>
-            <Link to="contact" className="burger_menu2">Contact us</Link>
-            <Link to="travel" className="burger_menu2">Travel and Hotel</Link> */}
+     
           </div>
         }
           

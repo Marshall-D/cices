@@ -1,3 +1,7 @@
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-2');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .header_wrapper_1{
     width: 100%;
 }
@@ -14,7 +18,7 @@
     display: none;
 }
 
-@media screen and (width <= 768px){
+@media screen and (width <= 1024px){
     .header_extra_2{
         display: block;
         width: 100%;
@@ -40,8 +44,7 @@
 }
 
 .header_img {
-    font: normal,  Verdana, Geneva, sans-serif;
-    font-family: "OpenSans-LightRegular",Verdana, Geneva, sans-serif;
+    /* font:   Verdana, Geneva, sans-serif; */
     line-height: 1.5;
     color: white;
     border: 0;
@@ -58,20 +61,23 @@
     /* width: 940px; */
     
 }
+
 .hd_1 {
-    font: normal, Verdana, Geneva, sans-serif;
+    /* font:   Geneva, sans-serif; */
     cursor: pointer;
     border: 0;
     outline: 0;
     background: transparent;
-    font-weight: 50px;
+    font-weight: normal;
     vertical-align: middle;
     font-size: 2em;
     display: inline-block;
-    font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
+    font-family: 'Bebas Neue', cursive;
     margin: 0;
     line-height: normal;
     color: #ffffff;
+    padding: 20px;
+    padding-bottom: 5px;
     /* padding: 0 .1em; */
     /* padding-right: 40px; */
 }
@@ -85,7 +91,7 @@
     }
 }
 
-@media screen and (width > 1000px) { 
+@media screen and (width > 1024px) { 
     .header_img {
         height: auto;
         font-size: 1.8em;

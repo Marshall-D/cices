@@ -14,7 +14,8 @@
     background-repeat: repeat;
     z-index: 5;
     margin-top: -2px;
-    
+    /* display: flex;
+flex-direction: row; */
     background-image: url("https://dk-media.s3.amazonaws.com/media/1z3x0/template/attachments/36685473/bg70.png");
     background-color: #f7f3e4;
 }
@@ -32,7 +33,7 @@
 .sidebar {
 
 
-    padding: 0 10px;
+    padding:  10px;
     /* width: 940px; */
     margin-bottom: -30px;
 }
@@ -42,21 +43,22 @@
     margin: 0 auto;
     width: 60%;
 }
-/* 
-.sidebar_1 {
 
+.sidebar_1 {
+float: left;
 
     background: transparent;
-    display: inline-block;
+    /* display: inline-block; */
     margin-right: 30px;
-    width: 330px;
-} */
+    width: 300px;
+}
 
 .content {
     float: right;
     padding: 0;
     margin-bottom: 30px;
-    width: 580px;
+    width: 500px;
+    /* display: inline; */
 }
 
 .p_img {

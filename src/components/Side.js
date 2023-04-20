@@ -3,7 +3,8 @@ import "../Styles/ColinBody.css";
 
 function Side() {
   return (
-    <aside className="sidebar_1" role="complementary">
+    <aside   
+ className="sidebar_1" role="complementary">
       <section className="box_234">
         <div className="inner_box">
           <div className="box_bg"></div>
