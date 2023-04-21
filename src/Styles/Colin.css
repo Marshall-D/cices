@@ -69,6 +69,19 @@
     }
 }
 @media screen and (width >=1024px) {
+    .h2_outer {
+        padding-left: 100px;
+        padding-right: 50px;
+
+    }
+    .h1_outer {
+        padding-left: 100px;
+        padding-right: 50px;
+        font-size: 1.3em;
+    }
+
+}
+@media screen and (width >=1400px) {
 
     /* .header_img {
         font-size: 2.1em;
@@ -99,7 +112,7 @@
     }
 }
 
-@media screen and (width <=1024px) {
+@media screen and (width <1024px) {
     .header_extra_2 {
         display: block;
         width: 100%;
