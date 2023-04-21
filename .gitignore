@@ -1,8 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 /src/roughwork.js
+/src/roughwork.css
 /src/basic.js 
 /src/colin.css 
 /src/colinBody.css 
+rou
 # dependencies
 /node_modules
 /.pnp
