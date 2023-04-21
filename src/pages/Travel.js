@@ -1,5 +1,5 @@
 import Side from "../components/Side";
-import "../Styles/ColinBody.css";
+import "../Styles/Home.css";
 
 function Travel() {
   return (
@@ -10,14 +10,14 @@ function Travel() {
             {" "}
             <div className="content">
               <div className="content_inner">
-                <div id="main_content">
+                <div>
                   <div className="main_content_bg"></div>
-                  <section id="quick_edit_container">
-                    <div id="quick_content">
-                      <div id="content_headers">
-                        <div id="content_headers_inner_1">
+                  <section>
+                    <div>
+                      <div>
+                        <div>
                           <div className="hgroup_outer">
-                            <hgroup id="page_titles">
+                            <hgroup>
                               <div className="outer_title">
                                 <h1 className="btt" style={{ fontSize: "2em" }}>
                                   Travel and Hotel{" "}
@@ -26,18 +26,18 @@ function Travel() {
                             </hgroup>
                           </div>
                         </div>
-                        <div id="content_headers_bg_outer">
-                          <div id="content_headers_bg_fade"></div>
-                          <div id="content_headers_bg_outer_1">
-                            <div id="content_headers_bg"></div>
-                            <div id="content_headers_bg2"></div>
+                        <div>
+                          <div></div>
+                          <div>
+                            <div></div>
+                            <div></div>
                           </div>
                         </div>
                       </div>
 
-                      <div class="content_body">
-                        <div class="content_body_inner_1">
-                          <div class="content_body_inner_2">
+                      <div>
+                        <div>
+                          <div>
                             <p>
                               The CICES 2023 will take place in an around the
                               Harley Davidson,&nbsp;2478 Pegasus Rd NE, Calgary,
@@ -57,12 +57,7 @@ function Travel() {
                             <p>
                               <img
                                 src="https://cices.icmbpsgroup.com/travel-and-hotel_files/images.jpg"
-                                // style={{
-                                //   borderColor: "rgb(236, 226, 206)",
-                                //   fontSize: "15px",
-                                // }}
                                 className="age"
-
                               />
                             </p>
                             <p>
@@ -166,7 +161,7 @@ function Travel() {
                             </p>
                           </div>
                         </div>
-                        <div class="content_body_bg"></div>
+                        <div></div>
                       </div>
                     </div>
                   </section>
@@ -174,7 +169,6 @@ function Travel() {
               </div>
             </div>
             <Side />
-
           </div>
         </div>
       </div>

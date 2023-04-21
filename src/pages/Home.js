@@ -1,5 +1,4 @@
-// import "../Styles/Home.css";
-import "../Styles/ColinBody.css";
+import "../Styles/Home.css";
 
 import Side from "../components/Side";
 
@@ -8,36 +7,40 @@ function Home() {
       <div className="container_wrapper_2">
         <div className="container_wrapper_1">
           <div className="container_wrapper">
-            <div className="sidebar" >
-              {/* <!-- END OF 'sidebar1' --> */}
+            <div className="sidebar">
               <div className="content">
                 <div className="content_inner">
-                  <div id="main_content">
+                  <div>
                     <div className="main_content_bg"></div>
-                    <section id="quick_edit_container">
-                      <div id="quick_content">
-                        <div id="content_headers">
-                          <div id="content_headers_inner_1">
+                    <section>
+                      <div>
+                        <div>
+                          <div>
                             <div className="hgroup_outer">
-                              <hgroup id="hgroup_outer">
+                              <hgroup>
                                 <div className="outer_title">
-                                  <h1 className="btt" style={{fontSize:"2em"}}>Join Us</h1>
+                                  <h1
+                                    className="btt"
+                                    style={{ fontSize: "2em" }}
+                                  >
+                                    Join Us
+                                  </h1>
                                 </div>
                               </hgroup>
                             </div>
                           </div>
-                          <div id="content_headers_bg_outer">
-                            <div id="content_headers_bg_fade"></div>
-                            <div id="content_headers_bg_outer_1">
-                              <div id="content_headers_bg"></div>
-                              <div id="content_headers_bg2"></div>
+                          <div>
+                            <div></div>
+                            <div>
+                              <div></div>
+                              <div></div>
                             </div>
                           </div>
                         </div>
 
-                        <div class="content_body">
-                          <div class="content_body_inner_1">
-                            <div class="content_body_inner_2">
+                        <div>
+                          <div>
+                            <div>
                               <p>
                                 <br />
                               </p>
@@ -104,43 +107,41 @@ function Home() {
                               <p>
                                 <br />
                               </p>
-                              <p >
+                              <p>
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/a.jpg"
-                                 className="age"
+                                  className="age"
                                 />
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/b.jpg"
                                   className="age"
-
                                 />
                               </p>
                               <p>
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/c.jpg"
                                   className="age"
-                                  />
+                                />
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/d.jpg"
                                   className="age"
-
                                 />
                               </p>
                               <p>
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/e.jpg"
                                   className="age"
-                                  />
+                                />
                               </p>
                               <p>
                                 <img
                                   src="https://cices.icmbpsgroup.com/index_files/f.jpg"
                                   className="age"
-                                  />
+                                />
                               </p>
                             </div>
                           </div>
-                          <div class="content_body_bg"></div>
+                          <div></div>
                         </div>
                       </div>
                     </section>
@@ -149,16 +150,10 @@ function Home() {
               </div>
               <Side />
 
-              {/* <!-- END OF 'content' --> */}
-              <aside id="sidebar2" class="sidebar" role="complementary"></aside>
-              {/* <!-- END OF 'sidebar2' --> */}
+              <aside role="complementary"></aside>
             </div>
-
-            {/* <!-- END OF 'container' --> */}
           </div>
-          {/* <!-- END OF 'container_wrapper' --> */}
         </div>
-        {/* <!-- END OF 'container_wrapper_1' --> */}
       </div>
     );
   }

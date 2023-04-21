@@ -1,10 +1,8 @@
-// import "../Styles/Home.css";
-import "../Styles/ColinBody.css";
+import "../Styles/Home.css";
 
 function Side() {
   return (
-    <aside   
- className="sidebar_1" role="complementary">
+    <aside className="sidebar_1" role="complementary">
       <section className="box_234">
         <div className="inner_box">
           <div className="box_bg"></div>
@@ -13,10 +11,7 @@ function Side() {
               <div className="hgroup_outer">
                 <hgroup className="outer_title">
                   <h3>
-                    <span
-                      className="box_note_icon"  
-                      aria-hidden="true"
-                    >
+                    <span className="box_note_icon" aria-hidden="true">
                       
                     </span>{" "}
                     <span className="btt">Important Dates </span>
@@ -38,8 +33,11 @@ function Side() {
             <div className="box_content_body_bg"></div>
             <div className="box_body-inner_2">
               <div className="box_content_body_inner_2">
-                <p >
-                  <img className="age" src="https://cices.icmbpsgroup.com/index_files/covid-19-update-news.jpg" />
+                <p>
+                  <img
+                    className="age"
+                    src="https://cices.icmbpsgroup.com/index_files/covid-19-update-news.jpg"
+                  />
                 </p>
                 <p>
                   May&nbsp;&nbsp;21-25, 2023 Conference Date
@@ -60,7 +58,6 @@ function Side() {
       </section>
 
       <section className="box_234">
-
         <div className="inner_box">
           <div className="box_bg"></div>
           <div className="box_content_headers">
@@ -68,10 +65,7 @@ function Side() {
               <div className="hgroup_outer">
                 <hgroup className="outer_title">
                   <h3>
-                    <span
-                      className="box_note_icon"  
-                      aria-hidden="true"
-                    >
+                    <span className="box_note_icon" aria-hidden="true">
                       
                     </span>{" "}
                     <span className="btt">Venue</span>
@@ -114,10 +108,7 @@ function Side() {
               <div className="hgroup_outer">
                 <hgroup className="outer_title">
                   <h3>
-                    <span
-                      className="box_note_icon"  
-                      aria-hidden="true"
-                    >
+                    <span className="box_note_icon" aria-hidden="true">
                       
                     </span>{" "}
                     <span className="btt">Agenda</span>

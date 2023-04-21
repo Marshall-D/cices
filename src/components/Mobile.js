@@ -1,52 +1,9 @@
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "../Styles/Mobile.css";
 
 function Mobile() {
     return (
       <div>
-        {/* <div id="mobile_overlay" />
-        <div style={{ position: "fixed" }} className="mobile_top_bar">
-          <ul className="mobile_top_bar_ul">
-            <li className="mobile_open_menu">
-              <div className="nav_icon_3">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </li> */}
-
-            {/* <li class="mobile_search_box">
-              <form
-                accept-charset="UTF-8"
-                action="search"
-                id="admin_search"
-                method="get"
-              >
-                <div style={{ margin: "0", padding: "0", display: "inline" }}>
-                  <input name="utf8" type="hidden" value="✓" />
-                </div>
-                <div class="search-control">
-                  <span class="admin_search_box">
-                    <input
-                      type="text"
-                      name="q"
-                      value=""
-                      placeholder="Enter search keyword(s)"
-                    />
-                  </span>
-                  <span class="util_search_button">
-                    <input value="" type="submit" />
-                  </span>
-                </div>
-              </form>{" "}
-            </li>
-
-            <li class="mobile_social">
-              <div></div>
-            </li> */}
-          {/* </ul>
-        </div> */}
         <div className="mobile_menu">
           <div>
             <ul className="mobile_menu_ul">
@@ -95,7 +52,7 @@ function Mobile() {
               </li>
             </ul>
           </div>
-        </div> 
+        </div>
       </div>
     );
   }

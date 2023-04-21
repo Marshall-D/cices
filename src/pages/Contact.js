@@ -1,5 +1,5 @@
 import Side from "../components/Side";
-import "../Styles/ColinBody.css";
+import "../Styles/Home.css";
 import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react'
 
@@ -26,13 +26,13 @@ function Contact() {
             {" "}
             <div className="content">
               <div className="content_inner">
-                <div id="main_content">
+                <div>
                   <div className="main_content_bg"></div>
                   <section className="quick_edit_container">
-                    <div id="content_headers">
-                      <div id="content_headers_inner_1">
+                    <div>
+                      <div>
                         <div className="hgroup_outer">
-                          <hgroup id="page_titles">
+                          <hgroup>
                             <div className="outer_title">
                               <h1 className="btt" style={{ fontSize: "1.6em" }}>
                                 Contact Us{" "}
@@ -41,11 +41,11 @@ function Contact() {
                           </hgroup>
                         </div>
                       </div>
-                      <div id="content_headers_bg_outer">
-                        <div id="content_headers_bg_fade"></div>
-                        <div id="content_headers_bg_outer_1">
-                          <div id="content_headers_bg"></div>
-                          <div id="content_headers_bg2"></div>
+                      <div>
+                        <div></div>
+                        <div>
+                          <div></div>
+                          <div></div>
                         </div>
                       </div>
                     </div>
@@ -53,8 +53,8 @@ function Contact() {
                     <div className="content_body">
                       <div className="content_body_inner">
                         <div className="">
-                          <div id="content_message">
-                            <div class="content_message">
+                          <div>
+                            <div>
                               <p>
                                 Complete the form below to request information
                                 about the Canada International Conference On
@@ -66,15 +66,15 @@ function Contact() {
                                 via&nbsp;call / whatsApp - +1 587 402 5051
                               </p>
                             </div>
-                            <div class="content_headers" id="hr_div_sep"></div>
+                            <div></div>
                           </div>
 
                           <form
-                           ref={formRef} onSubmit={handleSubmit}
+                            ref={formRef}
+                            onSubmit={handleSubmit}
                             accept-charset="UTF-8"
                             action="contact/send_message"
                             method="post"
-
                           >
                             <div
                               style={{
@@ -97,11 +97,13 @@ function Contact() {
                                   <td className="col_1">
                                     <label className="col_label"> Email:</label>
                                   </td>
-                                  <td >
-                                    <span class="textbox" id="contact_email">
-                                      <input className="email_input"
+                                  <td>
+                                    <span>
+                                      <input
+                                        className="email_input"
                                         id="submission_from"
-                                        name="user_name"                                        size="30"
+                                        name="user_name"
+                                        size="30"
                                         type="text"
                                       />
                                     </span>
@@ -109,43 +111,46 @@ function Contact() {
                                 </tr>
                                 <tr>
                                   <td className="col_1">
-                                    <label className="col_label">Subject:</label>
+                                    <label className="col_label">
+                                      Subject:
+                                    </label>
                                   </td>
                                   <td className="col2">
-                                    <span class="textbox" id="contact_subject">
-                                    <input className="email_input"
-                                      
+                                    <span>
+                                      <input
+                                        className="email_input"
                                         id="submission_subject"
-                                        name="user_subject"                                         size="30"
+                                        name="user_subject"
+                                        size="30"
                                         type="text"
                                       />
                                     </span>
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td class="col1">
-                                    <label className="col_label">Comments:</label>
+                                  <td>
+                                    <label className="col_label">
+                                      Comments:
+                                    </label>
                                   </td>
-                                  <td class="col2">
-                                    <span
-                                      class="textarea"
-                                      id="contact_comments"
-                                    >
-                                      <textarea className="email_input"
-
-                                      
+                                  <td>
+                                    <span>
+                                      <textarea
+                                        className="email_input"
                                         cols="40"
                                         id="submission_message"
-                                        name="message"                                        rows="20"
+                                        name="message"
+                                        rows="20"
                                       ></textarea>
                                     </span>
                                   </td>
                                 </tr>
                                 <tr>
                                   <td colspan="2">
-                                    <div class="captcha1">
-                                      <span class="button" id="contact_submit">
-                                        <input className="col_input"
+                                    <div>
+                                      <span>
+                                        <input
+                                          className="col_input"
                                           name="commit"
                                           type="submit"
                                           value="Submit"
@@ -156,19 +161,17 @@ function Contact() {
                                 </tr>
                               </tbody>
                             </table>
-                            { done && "Thanks for reaching out ..."}
-
+                            {done && "Thanks for reaching out ..."}
                           </form>
                         </div>
                       </div>
-                      <div class="content_body_bg"></div>
+                      <div></div>
                     </div>
                   </section>
                 </div>
               </div>
             </div>
             <Side />
-
           </div>
         </div>
       </div>

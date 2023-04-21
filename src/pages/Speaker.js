@@ -1,5 +1,5 @@
 import Side from "../components/Side";
-import "../Styles/ColinBody.css";
+import "../Styles/Home.css";
 
 function Speaker() {
   return (
@@ -10,63 +10,44 @@ function Speaker() {
             {" "}
             <div className="content">
               <div className="content_inner">
-                <div id="main_content">
+                <div>
                   <div className="main_content_bg"></div>
-                  <section id="quick_edit_container">
-                    <div id="quick_content">
-                      <div id="content_headers">
-                        <div id="content_headers_inner_1">
+                  <section>
+                    <div>
+                      <div>
+                        <div>
                           <div className="hgroup_outer">
-                            <hgroup id="page_titles">
+                            <hgroup>
                               <div className="outer_title">
-                                <h1 className="btt" style={{ fontSize: "1.6em" }}>
+                                <h1
+                                  className="btt"
+                                  style={{ fontSize: "1.6em" }}
+                                >
                                   Speaker and Committee{" "}
                                 </h1>{" "}
                               </div>
-                              <span class="sub_title_spacer"></span>
+                              <span></span>
                               <h2 className="speaker">Featured Speakers</h2>
                             </hgroup>
                           </div>
                         </div>
-                        <div id="content_headers_bg_outer">
-                          <div id="content_headers_bg_fade"></div>
-                          <div id="content_headers_bg_outer_1">
-                            <div id="content_headers_bg"></div>
-                            <div id="content_headers_bg2"></div>
+                        <div>
+                          <div></div>
+                          <div>
+                            <div></div>
+                            <div></div>
                           </div>
                         </div>
                       </div>
 
-                      <div class="content_body">
-                        <div class="content_body_inner_1">
-                          <div class="content_body_inner_2">
+                      <div>
+                        <div>
+                          <div>
                             <h2>
                               <img
                                 src="https://cices.icmbpsgroup.com/speaker-and-committee_files/041d18b.jpg"
-                                // style={{
-                                //   marginBottom: "0px",
-                                //   borderColor: "rgb(236, 226, 206)",
-                                //   fontSize: "14px",
-                                //   backgroundPosition: "0px 0px",
-                                //   color: "rgb(69, 49, 34)",
-                                //   boxSizing: "border-box",
-                                //   textSizeAdjust: "100%",
-                                //   position: "relative",
-                                //   width: "176px",
-                                // }}
                                 className="age"
-
                               />{" "}
-                              {/* <img
-                                src="https://cices.icmbpsgroup.com/speaker-and-committee_files/ac.jpg"
-                                style={{
-                                  borderColor: "rgb(236, 226, 206)",
-                                  fontSize: "12px",
-                                  color: "rgb(69, 49, 34)",
-                                  fontFamily: "Arial, Helvetica, sans-serif",
-                                  width: "205px",
-                                }}
-                              /> */}
                             </h2>
                             <h3>
                               <p className="speaker_text">
@@ -99,9 +80,10 @@ function Speaker() {
                                 University Of Calgary
                               </p>
                               <p>
-                                <img src="https://cices.icmbpsgroup.com/speaker-and-committee_files/add.jpg" 
-                                                                className="age"
-                                                                />
+                                <img
+                                  src="https://cices.icmbpsgroup.com/speaker-and-committee_files/add.jpg"
+                                  className="age"
+                                />
                               </p>
                             </h2>
                             <h3 className="speaker_name">Hamilton Lohan</h3>
@@ -117,7 +99,6 @@ function Speaker() {
                                     src="https://cices.icmbpsgroup.com/speaker-and-committee_files/ty.jpg"
                                     // style={{ height: "auto", width: "273px" }}
                                     className="age"
-
                                   />
                                 </p>
                                 <p></p>
@@ -259,7 +240,7 @@ function Speaker() {
                             </h2>
                           </div>
                         </div>
-                        <div class="content_body_bg"></div>
+                        <div></div>
                       </div>
                     </div>
                   </section>
@@ -267,7 +248,6 @@ function Speaker() {
               </div>
             </div>
             <Side />
-
           </div>{" "}
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Side from "../components/Side";
-// import "../Styles/Home.css";
-import "../Styles/ColinBody.css";
+import "../Styles/Home.css";
+// import "../Styles/ColinBody.css";
 
 
 function Registration() {
@@ -12,36 +12,39 @@ function Registration() {
             {" "}
             <div className="content">
               <div className="content_inner">
-                <div id="main_content">
+                <div>
                   <div className="main_content_bg"></div>
-                  <section id="quick_edit_container">
-                    <div id="quick_content">
-                      <div id="content_headers">
-                        <div id="content_headers_inner_1">
+                  <section>
+                    <div>
+                      <div>
+                        <div>
                           <div className="hgroup_outer">
-                            <hgroup id="page_titles">
+                            <hgroup>
                               <div className="outer_title">
-                                <h1 className="btt" style={{ fontSize: "1.5em" }}>
+                                <h1
+                                  className="btt"
+                                  style={{ fontSize: "1.5em" }}
+                                >
                                   Registration
                                 </h1>{" "}
                               </div>
                             </hgroup>
                           </div>
                         </div>
-                        <div id="content_headers_bg_outer">
-                          <div id="content_headers_bg_fade"></div>
-                          <div id="content_headers_bg_outer_1">
-                            <div id="content_headers_bg"></div>
-                            <div id="content_headers_bg2"></div>
+                        <div>
+                          <div></div>
+                          <div>
+                            <div></div>
+                            <div></div>
                           </div>
                         </div>
                       </div>
 
-                      <div class="content_body">
-                        <div class="content_body_inner_1">
-                          <div class="content_body_inner_2">
-                            <div id="content_message">
-                              <div class="content_message">
+                      <div>
+                        <div>
+                          <div>
+                            <div>
+                              <div>
                                 <table>
                                   <tbody>
                                     <tr>
@@ -294,24 +297,19 @@ function Registration() {
                                   registration.
                                 </p>
                               </div>
-                              <div
-                                class="content_headers"
-                                id="hr_div_sep"
-                              ></div>
+                              <div></div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="content_body_bg"></div>
+                      <div></div>
                     </div>
                   </section>
                 </div>
               </div>
             </div>
             <Side />
-
           </div>
-
         </div>
       </div>
     </div>

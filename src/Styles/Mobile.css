@@ -26,13 +26,10 @@ body {
     left: 0;
     display: block;
     background: #3d3269;
-    /* vertical-align: middle; */
     z-index: 10;
 }
 
 .mobile_top_bar_ul {
-
-
     vertical-align: baseline;
     background: transparent;
     position: relative !important;
@@ -45,8 +42,6 @@ body {
 }
 
 .mobile_open_menu {
-
-
     font-size: 100%;
     background: transparent;
     min-width: 65px;
@@ -57,7 +52,6 @@ body {
 }
 
 .nav_icon_3 {
-
     vertical-align: baseline;
     width: 35px;
     height: 30px;
@@ -70,12 +64,9 @@ body {
 }
 
 .mobile_span {
-
-
     text-align: left;
     cursor: pointer;
     font-size: 100%;
-    /* vertical-align: baseline; */
     display: block;
     position: absolute;
     height: 5px;
@@ -89,10 +80,7 @@ body {
     top: 0px;
 }
 
-
-
 .mobile-overlay {
-
     font-size: 100%;
     vertical-align: baseline;
     background: #000;
@@ -103,37 +91,7 @@ body {
     z-index: 9;
 }
 
-@media screen and (width <=1024px) {
-    .mobile_menu {
 
-        font-size: 100%;
-        /* vertical-align: baseline; */
-        background: transparent;
-        top: 65px;
-        display: flex;
-        position: fixed;
-        z-index: 9;
-        /* display: flex; */
-        flex-direction: column;
-        width: 100%;
-        height: calc(100vh - 50px);
-        background-color: rgba(0, 0, 0, 0.4);
-        justify-content: space-around;
-
-    }
-
-}
-
-/* .burger_menu1{
-    width: 70%;
-    height: 70px;
-    background-color: #1c1d1a;
-    color: white;
-    font-size: 21px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-} */
 
 .mobile_menu_ul {
 
@@ -198,4 +156,25 @@ body {
     overflow: hidden;
     min-height: 22px;
     font-family: 'OpenSans-LightRegular', Verdana, Geneva, sans-serif;
+}
+
+
+@media screen and (width <=1024px) {
+    .mobile_menu {
+
+        font-size: 100%;
+        /* vertical-align: baseline; */
+        background: transparent;
+        top: 65px;
+        display: flex;
+        position: fixed;
+        z-index: 9;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background-color: rgba(0, 0, 0, 0.4);
+        justify-content: space-around;
+
+    }
+
 }

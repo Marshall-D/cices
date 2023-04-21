@@ -1,11 +1,6 @@
 
-import "../Styles/ColinBody.css";
-
+import "../Styles/Home.css";
 import Side from "../components/Side";
-// import "../Styles/Home.css";
-
-
-
 
 function Call() {
   return (
@@ -15,13 +10,13 @@ function Call() {
           <div className="sidebar">
             <div className="content">
               <div className="content_inner">
-                <div id="main_content">
+                <div>
                   <div className="main_content_bg"></div>
-                  <section id="quick_edit_container">
-                    <div id="content_headers">
-                      <div id="content_headers_inner_1">
+                  <section>
+                    <div>
+                      <div>
                         <div className="hgroup_outer">
-                          <hgroup id="page_titles">
+                          <hgroup>
                             <div className="outer_title">
                               <h1 className="btt" style={{ fontSize: "1.5em" }}>
                                 Paper Submission
@@ -30,18 +25,18 @@ function Call() {
                           </hgroup>
                         </div>
                       </div>
-                      <div id="content_headers_bg_outer">
-                        <div id="content_headers_bg_fade"></div>
-                        <div id="content_headers_bg_outer_1">
-                          <div id="content_headers_bg"></div>
-                          <div id="content_headers_bg2"></div>
+                      <div>
+                        <div></div>
+                        <div>
+                          <div></div>
+                          <div></div>
                         </div>
                       </div>
                     </div>
 
-                    <div class="content_body">
-                      <div class="content_body_inner_1">
-                        <div class="content_body_inner_2">
+                    <div>
+                      <div>
+                        <div>
                           <p>
                             The Canada International Conference On Engineering
                             and Sciences&nbsp; (CICES 2023) offers a great
@@ -129,60 +124,28 @@ function Call() {
                             submitted by two authors, both of them must make the
                             official registration.
                           </p>
-                          {/* <p>
-                            <strong>Preparation of Poster Presentation</strong>
-                          </p>
+
                           <p>
-                            Please make sure that you have prepared the Poster
-                            Presentation according to the Template of Poster
-                            Presentation below.
-                          </p>
-                          <p >
-                            <a
-                              href="https://icens2019.doodlekit.com/file/353155/ICENS_poster_templete.pptx"
-                              style={{ fontSize: "14px" }}
-                            >
-                              Click here to see
-                            </a>{" "}
-                            Template of Poster Presentation (Poster size is
-                            60cm*84cm)
-                          </p> */}
-                          <p >
                             <img
                               src="https://cices.icmbpsgroup.com/papersubmission_files/g.jpg"
                               className="age"
-                              />
+                            />
                           </p>
                           <p>
                             <img
                               src="https://cices.icmbpsgroup.com/papersubmission_files/s.jpeg"
                               className="age"
-                              />
+                            />
                           </p>
                         </div>
                       </div>
-                      <div class="content_body_bg"></div>
+                      <div></div>
                     </div>
-
-                    {/* 
-<script type="text/javascript">(function() {
-$(function() {
-$(document).on('ajax:beforeSend', 'a.delete_album', function(e) {
-return $(this).closest('.pic').fadeOut();
-});
-return $(document).on('ajax:success', '.up a, .down a', function(e) {
-return $('#main_content').load('/papersubmission.html');
-});
-});
-
-}).call(this);
-</script> */}
                   </section>
                 </div>
               </div>
             </div>
             <Side />
-
           </div>
         </div>
       </div>
