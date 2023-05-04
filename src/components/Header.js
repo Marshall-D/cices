@@ -13,9 +13,10 @@ function Header()  {
   
     return (
       <div className="header_wrapper_1">
+
         <div className="header_wrapper">
           <div className="header_extra_1"></div>
-          <div className="header_extra_2">
+          {/* <div className="header_extra_2">
             {!showSide ? (
               <div
                 style={{
@@ -44,12 +45,12 @@ function Header()  {
             <div></div>
           </div>
           {showSide && (
-            <div className="burger" onClick={toggleSide}>
+            <div  onClick={toggleSide}>
               <Mobile />
             </div>
-          )}
+          )} */}
 
-          <div>
+          <div >
             <header role="banner" className="header_img">
               <div>
                 <hgroup>
