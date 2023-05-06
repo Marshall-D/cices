@@ -67,7 +67,7 @@ function Registration() {
                                       </td>
                                       <td>
                                         <strong>
-                                          Until May&nbsp;2&nbsp; &nbsp; &nbsp;
+                                          Until August&nbsp;2&nbsp; &nbsp; &nbsp;
                                           &nbsp; &nbsp; &nbsp; &nbsp;
                                         </strong>
                                         <br />
@@ -80,7 +80,7 @@ function Registration() {
                                       <td>
                                         <strong>
                                           {" "}
-                                          Until May 2<br />
+                                          Until August 2<br />
                                           <br />
                                         </strong>
                                       </td>

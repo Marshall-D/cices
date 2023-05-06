@@ -49,7 +49,7 @@ function Home() {
                                 pleased to announce that the 6th Canada
                                 International Conference on Engineering and
                                 Sciences (CICES 2023) will be held from
-                                May&nbsp;21 to 25, 2023 in Calgary, Canada.
+                                August&nbsp;21 to 25, 2023 in Calgary, Canada.
                                 CICES provides an ideal academic platform for
                                 researchers to present the latest research
                                 findings and describe emerging technologies, and

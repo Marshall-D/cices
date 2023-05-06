@@ -47,12 +47,11 @@ function Call() {
                             trends in engineering and natural sciences field.
                           </p>
                           <p>
-                            2023 CICES will take place from May 21-25, 2023 in
+                            2023 CICES will take place from August 21-25, 2023 in
                             Calgary, Canada. The scholars are encouraged to
                             submit full papers or abstracts on any aspect of
                             engineering and natural science. All manuscripts
-                            submissions should be sent via email - submission
-                            (at) blader .com
+                            submissions should be sent via email - cicesinquiry@gmail.com
                           </p>
                           <p>
                             TOPICS of interested includes, but not limited to
@@ -68,8 +67,7 @@ function Call() {
                           <p>- Material Science and Engineering</p>
                           <p>- Mechanical Engineering</p>
                           <p>
-                            Please submit an abstract to: submission (at)
-                            blader.com, not later than May 5, 2023&nbsp; to:
+                            Please submit an abstract to: cicesinquiry@gmail.com, not later than August 5, 2023&nbsp; to:
                             Ass.Prof. Martha Blake. Please include: Title of
                             Paper, Full Name (s), Current Position,
                             Institutional Affiliation, an email address and at
@@ -86,7 +84,7 @@ function Call() {
                             in the conference proceedings or books, to
                             contribute to the editing of a book, or any other
                             contribution, please send an email to Dr. Felicity
-                            Lohan, felicity (at) blader.com.
+                            Lohan, cicesinquiry@gmail.com.
                           </p>
                           <p>
                             <strong>Abstract Submission Guidelines</strong>

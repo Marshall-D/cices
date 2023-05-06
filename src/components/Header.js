@@ -72,7 +72,7 @@ function Header()  {
                       }}
                       className="hd_1"
                     >
-                      CICES 2023 |May 21 -25, 2023 | Calgary, Canada
+                      CICES 2023 |August 21 -25, 2023 | Calgary, Canada
                     </h2>
                   </div>
                 </hgroup>

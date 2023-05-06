@@ -94,7 +94,7 @@ function Travel() {
                             </p>
                             <p>
                               Delegates who notify the organizers of their
-                              itinerary not later than May 10, 2023 can benefit
+                              itinerary not later than August 10, 2023 can benefit
                               from the international delegate airport pickup
                               from the Calgary International Airport to
                               designated hotels booked through the organizers.
@@ -107,7 +107,7 @@ function Travel() {
                               early as possible. The conference dates are within
                               the high peak season and therefore rooms will be
                               limited unless you book early. We recommend
-                              booking your accommodation before&nbsp;May 10,
+                              booking your accommodation before&nbsp;August 10,
                               2023
                             </p>
                             <p>

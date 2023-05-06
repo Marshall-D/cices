@@ -63,7 +63,7 @@ function Contact() {
                                 days.
                                 <br />
                                 For urgent inquiries contact the organizers
-                                via&nbsp;call / whatsApp - +1 587 402 5051
+                                via&nbsp;call / whatsApp -  +1 (256) 398‑1089
                               </p>
                             </div>
                             <div></div>

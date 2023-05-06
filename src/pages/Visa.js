@@ -176,7 +176,7 @@ function Visa() {
                               East and Africa, and
                             </p>
                             <p>
-                              Starting May 31, 2018 the biometric requirement
+                              Starting August 31, 2018 the biometric requirement
                               became mandatory for nationals of Asia, Asia
                               Pacific and the Americas.
                             </p>
