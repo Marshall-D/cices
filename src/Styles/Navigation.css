@@ -31,3 +31,11 @@
     display: none;
   }
 }
+
+@media screen and (width >=1400px) {
+  .nav {
+   
+    padding-left: 200px;
+  }
+
+}
