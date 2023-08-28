@@ -2,7 +2,6 @@ import Side from "../components/Side";
 import "../Styles/Home.css";
 // import "../Styles/ColinBody.css";
 
-
 function Registration() {
   return (
     <div className="container_wrapper_2">
@@ -67,8 +66,8 @@ function Registration() {
                                       </td>
                                       <td>
                                         <strong>
-                                          Until August&nbsp;2&nbsp; &nbsp; &nbsp;
-                                          &nbsp; &nbsp; &nbsp; &nbsp;
+                                          Until November&nbsp;2&nbsp; &nbsp;
+                                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                         </strong>
                                         <br />
                                         <strong>
@@ -80,7 +79,7 @@ function Registration() {
                                       <td>
                                         <strong>
                                           {" "}
-                                          Until August 2<br />
+                                          Until November 2<br />
                                           <br />
                                         </strong>
                                       </td>

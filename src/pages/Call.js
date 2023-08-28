@@ -1,4 +1,3 @@
-
 import "../Styles/Home.css";
 import Side from "../components/Side";
 
@@ -47,11 +46,12 @@ function Call() {
                             trends in engineering and natural sciences field.
                           </p>
                           <p>
-                            2023 CICES will take place from August 21-25, 2023 in
-                            Calgary, Canada. The scholars are encouraged to
+                            2023 CICES will take place from November 21-25, 2023
+                            in Calgary, Canada. The scholars are encouraged to
                             submit full papers or abstracts on any aspect of
                             engineering and natural science. All manuscripts
-                            submissions should be sent via email - cicesinquiry@gmail.com
+                            submissions should be sent via email -
+                            cicesinquiry@gmail.com
                           </p>
                           <p>
                             TOPICS of interested includes, but not limited to
@@ -67,12 +67,13 @@ function Call() {
                           <p>- Material Science and Engineering</p>
                           <p>- Mechanical Engineering</p>
                           <p>
-                            Please submit an abstract to: cicesinquiry@gmail.com, not later than August 5, 2023&nbsp; to:
-                            Ass.Prof. Martha Blake. Please include: Title of
-                            Paper, Full Name (s), Current Position,
-                            Institutional Affiliation, an email address and at
-                            least 3 keywords that best describe the subject of
-                            your submission.{" "}
+                            Please submit an abstract to:
+                            cicesinquiry@gmail.com, not later than August 5,
+                            2023&nbsp; to: Ass.Prof. Martha Blake. Please
+                            include: Title of Paper, Full Name (s), Current
+                            Position, Institutional Affiliation, an email
+                            address and at least 3 keywords that best describe
+                            the subject of your submission.{" "}
                           </p>
                           <p>
                             If your submission is accepted, you should be

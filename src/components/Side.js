@@ -40,13 +40,13 @@ function Side() {
                   />
                 </p>
                 <p>
-                August&nbsp;&nbsp;21-25, 2023 Conference Date
+                  November&nbsp;&nbsp;21-25, 2023 Conference Date
                   <br />
-                  August 13, 2023 - Abstract Submission Deadline
+                  November 13, 2023 - Abstract Submission Deadline
                   <br />
-                  August 10, 2023&nbsp;- Full Paper Submission Deadline
+                  November 10, 2023&nbsp;- Full Paper Submission Deadline
                   <br />
-                  August&nbsp;&nbsp;15, 2023 - Registration Deadline
+                  November&nbsp;&nbsp;15, 2023 - Registration Deadline
                 </p>
                 <p>
                   <br />
