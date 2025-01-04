@@ -25,7 +25,7 @@ const HomePage: React.FC = () => {
   }, []);
 
   const filteredUsers = users.filter((user) =>
-    user.name.toLowerCase().includes(searchQuery.toLowerCase())
+    user.username.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
