@@ -1,15 +1,18 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface User {
   id: number;
   name: string;
+  username: string;
 }
 
 const HomePage: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(true);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
@@ -52,13 +55,13 @@ const HomePage: React.FC = () => {
                 key={user.id}
                 className="p-8 bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition duration-200"
               >
-                <h2 className="text-xl font-semibold">{user.name}</h2>
-                <Link
-                  to={`/user/${user.id}`}
-                  className="text-purple-500 hover:text-purple-300 text-sm mt-2 block"
+                <h2 className="text-xl font-semibold">{user.username}</h2>
+                <button
+                  onClick={() => navigate(`/user/${user.id}`)}
+                  className="mt-2 px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm"
                 >
                   View Details →
-                </Link>
+                </button>
               </li>
             ))
           ) : (
