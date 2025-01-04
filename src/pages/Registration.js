@@ -1,6 +1,6 @@
 import Side from "../components/Side";
 import "../Styles/Home.css";
-// import "../Styles/ColinBody.css";
+import button from "../images/button.png";
 
 function Registration() {
   return (
@@ -66,7 +66,7 @@ function Registration() {
                                       </td>
                                       <td>
                                         <strong>
-                                          Until November&nbsp;2&nbsp; &nbsp;
+                                          Until February&nbsp;2&nbsp; &nbsp;
                                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                         </strong>
                                         <br />
@@ -79,7 +79,7 @@ function Registration() {
                                       <td>
                                         <strong>
                                           {" "}
-                                          Until November 2<br />
+                                          After February 2<br />
                                           <br />
                                         </strong>
                                       </td>
@@ -207,7 +207,7 @@ function Registration() {
                                   >
                                     <br />
                                     <img
-                                      src="https://cices.icmbpsgroup.com/registration_files/Button_Small_Biz_Conference_Register_Now.png"
+                                      src={button}
                                       alt=""
                                       style={{
                                         borderColor: "rgb(236, 226, 206)",
@@ -247,7 +247,7 @@ function Registration() {
                                   <strong>Payment</strong>
                                 </p>
                                 <p>
-                                  The CICES 2023 registration fee is paid
+                                  The CICES 2024 registration fee is paid
                                   according to your location.{" "}
                                 </p>
                                 <p>Bank Transfer (TT)</p>

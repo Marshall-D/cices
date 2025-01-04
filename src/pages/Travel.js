@@ -1,5 +1,7 @@
 import Side from "../components/Side";
 import "../Styles/Home.css";
+import images from "../images/images.jpg";
+import transit from "../images/Transit_1.png";
 
 function Travel() {
   return (
@@ -39,7 +41,7 @@ function Travel() {
                         <div>
                           <div>
                             <p>
-                              The CICES 2023 will take place in an around the
+                              The CICES 2024 will take place in an around the
                               Harley Davidson,&nbsp;2478 Pegasus Rd NE, Calgary,
                               AB T2E 8G8, Canada.
                             </p>
@@ -55,10 +57,7 @@ function Travel() {
                               km².
                             </p>
                             <p>
-                              <img
-                                src="https://cices.icmbpsgroup.com/travel-and-hotel_files/images.jpg"
-                                className="age"
-                              />
+                              <img src={images} className="age" />
                             </p>
                             <p>
                               The Calgary International Airport is the closest
@@ -84,8 +83,7 @@ function Travel() {
                             </p>
                             <p>
                               <img
-                                src="https://cices.icmbpsgroup.com/travel-and-hotel_files/Transit_1.png"
-                                // style={{
+                                src={transit} // style={{
                                 //   borderColor: "rgb(236, 226, 206)",
                                 //   fontSize: "15px",
                                 // }}
@@ -94,7 +92,7 @@ function Travel() {
                             </p>
                             <p>
                               Delegates who notify the organizers of their
-                              itinerary not later than November 10, 2023 can
+                              itinerary not later than February 10, 2024 can
                               benefit from the international delegate airport
                               pickup from the Calgary International Airport to
                               designated hotels booked through the organizers.
@@ -107,8 +105,8 @@ function Travel() {
                               early as possible. The conference dates are within
                               the high peak season and therefore rooms will be
                               limited unless you book early. We recommend
-                              booking your accommodation before&nbsp;November
-                              10, 2023
+                              booking your accommodation before&nbsp;February
+                              10, 2024
                             </p>
                             <p>
                               <strong>Options for accommodation</strong>

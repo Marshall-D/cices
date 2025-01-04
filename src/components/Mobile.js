@@ -11,7 +11,7 @@ function Mobile() {
               <div style={{ padding: "15px" }}>
                 Canada International Conference On Engineering and Sciences
                 <span className="mobile_menu_title_span">
-                  CICES 2023 |November 21 -25, 2023 | Calgary, Canada
+                  CICES 2024 |February 21 -25, 2024 | Calgary, Canada
                 </span>
               </div>
             </li>

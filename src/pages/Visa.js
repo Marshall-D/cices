@@ -61,24 +61,24 @@ function Visa() {
                               you need to apply for a visa please request:
                             </p>
                             <p>
-                              1) Official letter of recognition of CICES 2023
+                              1) Official letter of recognition of CICES 2024
                               provided by the Canada Border Services Agency to
                               us for dispatch to registered delegates.
                             </p>
                             <p>
                               2) A letter of invitation to attend the&nbsp;CICES
-                              2023 containing The Immigration, Refugees and
+                              2024 containing The Immigration, Refugees and
                               Citizenship Canada Special Event Code.
                             </p>
                             <p>
-                              Attendance at a conference such as&nbsp;CICES 2023
+                              Attendance at a conference such as&nbsp;CICES 2024
                               is considered to be a cross-border business
                               activity and therefore you will be considered a
                               business visitor.
                             </p>
                             <p>
                               International delegates attending the&nbsp;CICES
-                              2023 who require a visa to enter Canada will be
+                              2024 who require a visa to enter Canada will be
                               issued a Business Visitor Visa by the Canada High
                               Commission in their Home country.
                             </p>
@@ -92,7 +92,7 @@ function Visa() {
                             </p>
                             <p>
                               Convention Services Program (IECSP) has officially
-                              recognised the&nbsp;CICES 2023.
+                              recognised the&nbsp;CICES 2024.
                             </p>
                             <p>
                               To facilitate Canadian border procedures it is
@@ -104,7 +104,7 @@ function Visa() {
                               upon their arrival to Canada.
                             </p>
                             <p>
-                              The&nbsp;CICES 2023 has been registered with The
+                              The&nbsp;CICES 2024 has been registered with The
                               Special Events Unit of Immigration, Refugee and
                               Citizenship Canada (IRCC).
                             </p>

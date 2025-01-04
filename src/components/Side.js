@@ -1,4 +1,5 @@
 import "../Styles/Home.css";
+import covid from "../images/covid.jpg";
 
 function Side() {
   return (
@@ -34,19 +35,16 @@ function Side() {
             <div className="box_body-inner_2">
               <div className="box_content_body_inner_2">
                 <p>
-                  <img
-                    className="age"
-                    src="https://cices.icmbpsgroup.com/index_files/covid-19-update-news.jpg"
-                  />
+                  <img className="age" src={covid} />
                 </p>
                 <p>
-                  November&nbsp;&nbsp;21-25, 2023 Conference Date
+                  February&nbsp;&nbsp;21-25, 2024 Conference Date
                   <br />
-                  November 13, 2023 - Abstract Submission Deadline
+                  February 13, 2024 - Abstract Submission Deadline
                   <br />
-                  November 10, 2023&nbsp;- Full Paper Submission Deadline
+                  February 10, 2024&nbsp;- Full Paper Submission Deadline
                   <br />
-                  November&nbsp;&nbsp;15, 2023 - Registration Deadline
+                  February&nbsp;&nbsp;15, 2024 - Registration Deadline
                 </p>
                 <p>
                   <br />

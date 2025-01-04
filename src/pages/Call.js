@@ -38,7 +38,7 @@ function Call() {
                         <div>
                           <p>
                             The Canada International Conference On Engineering
-                            and Sciences&nbsp; (CICES 2023) offers a great
+                            and Sciences&nbsp; (CICES 2024) offers a great
                             opportunity to bring together professors,
                             researchers, and scholars around the globe, having a
                             great platform to deliver the latest innovative
@@ -46,7 +46,7 @@ function Call() {
                             trends in engineering and natural sciences field.
                           </p>
                           <p>
-                            2023 CICES will take place from November 21-25, 2023
+                            2024 CICES will take place from February 21-25, 2024
                             in Calgary, Canada. The scholars are encouraged to
                             submit full papers or abstracts on any aspect of
                             engineering and natural science. All manuscripts
@@ -68,8 +68,8 @@ function Call() {
                           <p>- Mechanical Engineering</p>
                           <p>
                             Please submit an abstract to:
-                            cicesinquiry@gmail.com, not later than August 5,
-                            2023&nbsp; to: Ass.Prof. Martha Blake. Please
+                            cicesinquiry@gmail.com, not later than January 5,
+                            2024&nbsp; to: Ass.Prof. Martha Blake. Please
                             include: Title of Paper, Full Name (s), Current
                             Position, Institutional Affiliation, an email
                             address and at least 3 keywords that best describe

@@ -1,5 +1,9 @@
 import Side from "../components/Side";
 import "../Styles/Home.css";
+import one from "../images/1.jpg";
+import two from "../images/ac.jpg";
+import add from "../images/add.jpg";
+import ty from "../images/ty.jpg";
 
 function Speaker() {
   return (
@@ -44,10 +48,7 @@ function Speaker() {
                         <div>
                           <div>
                             <h2>
-                              <img
-                                src="https://cices.icmbpsgroup.com/speaker-and-committee_files/041d18b.jpg"
-                                className="age"
-                              />{" "}
+                              <img src={one} className="age" />{" "}
                             </h2>
                             <h3>
                               <p className="speaker_text">
@@ -71,7 +72,7 @@ function Speaker() {
                             </h3>
                             <h2>
                               <p>
-                                <img src="https://cices.icmbpsgroup.com/speaker-and-committee_files/ac.jpg" />
+                                <img src={two} />
                               </p>
                             </h2>
                             <h3 className="speaker_name">Andrew Vaughn</h3>
@@ -80,10 +81,7 @@ function Speaker() {
                                 University Of Calgary
                               </p>
                               <p>
-                                <img
-                                  src="https://cices.icmbpsgroup.com/speaker-and-committee_files/add.jpg"
-                                  className="age"
-                                />
+                                <img src={add} className="age" />
                               </p>
                             </h2>
                             <h3 className="speaker_name">Hamilton Lohan</h3>
@@ -96,8 +94,7 @@ function Speaker() {
                               <div>
                                 <p>
                                   <img
-                                    src="https://cices.icmbpsgroup.com/speaker-and-committee_files/ty.jpg"
-                                    // style={{ height: "auto", width: "273px" }}
+                                    src={ty} // style={{ height: "auto", width: "273px" }}
                                     className="age"
                                   />
                                 </p>

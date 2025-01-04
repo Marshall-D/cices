@@ -1,4 +1,10 @@
 import "../Styles/Home.css";
+import a from "../images/a.jpg";
+import b from "../images/b.jpg";
+import c from "../images/c.jpg";
+import d from "../images/d.jpg";
+import e from "../images/e.jpg";
+import f from "../images/f.jpg";
 
 import Side from "../components/Side";
 
@@ -45,8 +51,8 @@ function Home() {
                               On behalf of the organizing committee, we are
                               pleased to announce that the 6th Canada
                               International Conference on Engineering and
-                              Sciences (CICES 2023) will be held from
-                              November&nbsp;21 to 25, 2023 in Calgary, Canada.
+                              Sciences (CICES 2024) will be held from
+                              February&nbsp;21 to 25, 2024 in Calgary, Canada.
                               CICES provides an ideal academic platform for
                               researchers to present the latest research
                               findings and describe emerging technologies, and
@@ -105,36 +111,18 @@ function Home() {
                               <br />
                             </p>
                             <p>
-                              <img
-                                src="https://cices.icmbpsgroup.com/index_files/a.jpg"
-                                className="age"
-                              />
-                              <img
-                                src="https://cices.icmbpsgroup.com/index_files/b.jpg"
-                                className="age"
-                              />
+                              <img src={a} className="age" />
+                              <img src={b} className="age" />
                             </p>
                             <p>
-                              <img
-                                src="https://cices.icmbpsgroup.com/index_files/c.jpg"
-                                className="age"
-                              />
-                              <img
-                                src="https://cices.icmbpsgroup.com/index_files/d.jpg"
-                                className="age"
-                              />
+                              <img src={c} className="age" />
+                              <img src={d} className="age" />
                             </p>
                             <p>
-                              <img
-                                src="https://cices.icmbpsgroup.com/index_files/e.jpg"
-                                className="age"
-                              />
+                              <img src={e} className="age" />
                             </p>
                             <p>
-                              <img
-                                src="https://cices.icmbpsgroup.com/index_files/f.jpg"
-                                className="age"
-                              />
+                              <img src={f} className="age" />
                             </p>
                           </div>
                         </div>
