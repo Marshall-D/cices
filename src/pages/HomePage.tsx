@@ -7,13 +7,6 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto p-6">
-        <button
-          onClick={() => navigate(-1)}
-          className="flex items-center text-blue-500 mb-4"
-        >
-          <FiArrowLeft size={20} className="mr-2" />
-          Back
-        </button>
         <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
         <p className="mb-4">
           Asoro Automotive ("we", "us", or "our") is committed to protecting and
