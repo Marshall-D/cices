@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { FiArrowLeft } from "react-icons/fi";
 
 const PrivacyPolicy = () => {
   const navigate = useNavigate();
