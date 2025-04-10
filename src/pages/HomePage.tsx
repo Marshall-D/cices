@@ -111,6 +111,12 @@ const PrivacyPolicy = () => {
             such as fraud prevention, identity verification, and responding to
             requests from law enforcement or other governmental authorities.
           </li>
+          <li>
+            <strong>Camera Access:</strong> We require access to your device’s
+            camera to allow you to take pictures of cars when placing orders,
+            update your profile photo, and participate in video calls within the
+            app.
+          </li>
         </ul>
 
         <h2 className="text-2xl font-semibold mt-6 mb-2">
